@@ -1,0 +1,22 @@
+{
+  "start_utc": "2026-09-28T13:03:46Z",
+  "end_utc": "2026-09-28T13:04:22Z",
+  "exit_status": 0,
+  "test_command": [
+    "/usr/bin/python3",
+    "tests/run_tests.py"
+  ],
+  "deterministic_seed": "NA",
+  "threads": 1,
+  "deterministic_pass_checks": 12,
+  "historical_test_summary_count": 11,
+  "compiled_python_files": 42,
+  "core_imports": "CORE_IMPORTS_PASS",
+  "preserved_numeric_and_raw_files": 78,
+  "scale_confirmation_records": 25200,
+  "scale_confirmation_unique_keys": 25200,
+  "scale_replicates": "0-199",
+  "monte_carlo_rerun": false,
+  "test_output": "outputs/test_summary.json",
+  "public_log": "verification/DETERMINISTIC_TESTS.log"
+}

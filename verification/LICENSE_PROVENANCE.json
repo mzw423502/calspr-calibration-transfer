@@ -1,0 +1,10 @@
+{
+  "project_license": "MIT",
+  "authorization_date": "2026-09-28",
+  "third_party_helpers": "Apache-2.0 from original skill metadata",
+  "apache_text_url": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+  "apache_text_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+  "apache_text_retrieved_utc": "2026-09-28T13:16:34Z",
+  "numeric_sources_preserved": true,
+  "monte_carlo_rerun": false
+}

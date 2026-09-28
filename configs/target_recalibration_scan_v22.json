@@ -1,0 +1,57 @@
+{
+  "run_id": "target_recalibration_scan_20260913_e1",
+  "run_class": "predeclared_local_information_and_deterministic_screen",
+  "seed": 2026091502,
+  "wavelength_nm": 633.0,
+  "angle_min_deg": 60.0,
+  "angle_max_deg": 80.0,
+  "angle_bins": 201,
+  "baseline_index": 1.3330,
+  "sample_delta_index": 0.0050,
+  "gold_thickness_nm": 50.0,
+  "total_incident_photons": 10000000.0,
+  "background_fraction": 0.001,
+  "t1_source_reference_fractions": [0.20, 0.35, 0.50, 0.65, 0.80],
+  "t2_allocations": [
+    [0.10, 0.27, 0.63], [0.10, 0.36, 0.54], [0.10, 0.45, 0.45], [0.10, 0.54, 0.36], [0.10, 0.63, 0.27],
+    [0.20, 0.24, 0.56], [0.20, 0.32, 0.48], [0.20, 0.40, 0.40], [0.20, 0.48, 0.32], [0.20, 0.56, 0.24],
+    [0.30, 0.21, 0.49], [0.30, 0.28, 0.42], [0.30, 0.35, 0.35], [0.30, 0.42, 0.28], [0.30, 0.49, 0.21],
+    [0.40, 0.18, 0.42], [0.40, 0.24, 0.36], [0.40, 0.30, 0.30], [0.40, 0.36, 0.24], [0.40, 0.42, 0.18]
+  ],
+  "tr_target_reference_fractions": [0.20, 0.35, 0.50, 0.65, 0.80],
+  "representative_states": [
+    {"state_id": "thickness_minus", "mismatch_nm": -0.03, "target_angle_offset_deg": 0.0, "angle_aware": false},
+    {"state_id": "thickness_plus", "mismatch_nm": 0.03, "target_angle_offset_deg": 0.0, "angle_aware": false},
+    {"state_id": "angle_minus", "mismatch_nm": 0.0, "target_angle_offset_deg": -0.002, "angle_aware": true},
+    {"state_id": "angle_plus", "mismatch_nm": 0.0, "target_angle_offset_deg": 0.002, "angle_aware": true}
+  ],
+  "finite_difference_steps": {
+    "refractive_index": 0.000001,
+    "thickness_nm": 0.001,
+    "angle_zero_deg": 0.00001,
+    "log_gain": 0.00001
+  },
+  "bounds": {
+    "q": [1.325, 1.350],
+    "source_thickness_nm": [35.0, 65.0],
+    "mismatch_nm": [-6.0, 6.0],
+    "angle_zero_deg": [-0.10, 0.10],
+    "target_angle_offset_deg": [-0.05, 0.05],
+    "log_gain": [-0.10, 0.10]
+  },
+  "fit": {
+    "halton_starts": 4,
+    "initial_step_fraction": 0.20,
+    "step_shrink": 0.5,
+    "max_levels": 9,
+    "passes_per_level": 2,
+    "refine_max_iterations": 60,
+    "refine_unit_derivative_step": 0.00001,
+    "multi_solution_deviance_delta": 2.0,
+    "multi_solution_target_separation_riu": 0.0005,
+    "target_boundary_fraction": 0.001
+  },
+  "material": "data/raw/materials/Au_Johnson.yml",
+  "selection_rule": "Within each predeclared method-specific grid, minimize local q standard deviation separately for stable-angle and angle-aware models. T_R is the exact zero-source-reference boundary and starts from a 0/0.50/0.50 allocation. No noisy outcomes enter allocation selection.",
+  "interpretation_limit": "Local Fisher information and deterministic model-matched inversion under the stated angular-count model; not empirical validation and not a global allocation optimum."
+}

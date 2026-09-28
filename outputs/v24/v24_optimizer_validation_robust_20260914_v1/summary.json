@@ -1,0 +1,22 @@
+{
+  "status": "V24_CONFIRMATION_COMPLETE",
+  "run_id": "v24_optimizer_validation_robust_20260914_v1",
+  "seed": 2026091402,
+  "replicates_per_condition": 1,
+  "worker_processes": 4,
+  "task_count": 63,
+  "record_count": 126,
+  "expected_record_count": 126,
+  "record_count_pass": true,
+  "optimizer_failure_count": 0,
+  "target_boundary_count": 0,
+  "multi_solution_count": 0,
+  "extension_rule_triggered": false,
+  "extension_rule": "Do not extend by default. Extend the entire 9-anchor group from 100 to 200 replicates only if any |rho|=0.5 or 2 paired interval crosses zero AND its MCSE exceeds 0.25 times the absolute local predicted D; never extend to resolve rho=1, where the local predicted difference is zero.",
+  "elapsed_seconds": 289.2010052204132,
+  "peak_process_count": 4,
+  "config_sha256": "932887c26a581925fa9e7fd09e5867251949d423cade257f7944e34ae8fb242b",
+  "selection_source_sha256": "425571029832126dc224116e9d2a27706d9982e872d331f76ccc94cd3707ece4",
+  "replicates_sha256": "28a76d5a4c89cca15439fb114997914dd8304cd750cd55caa7f561238802cc77",
+  "interpretation_limit": "Optimizer validation only; not inferential evidence."
+}

@@ -1,0 +1,78 @@
+{
+  "status": "EXPLORATORY_COMPLETE",
+  "run_id": "p4m_20260913_v1",
+  "elapsed_seconds": 2.40939998626709,
+  "seed": 20260913,
+  "config_sha256": "8e3cf90a6ef6f6ef189486154b253792b3b320205e9877e5b62c418d21b850c3",
+  "material_sha256": {
+    "Johnson-Christy-1972": "9f4bdab6bd49f7c6a1c48b5fb5482c7448caf4b6de39594a34ecd66dcf592774",
+    "Rakic-LD-1998": "a91fca57ee99efc77354908fa11b9c4822e8852394042069caaac7610c52e602",
+    "Olmon-evaporated-2012": "be778621e6491fc4e2db6eee400fb329d44ada2b987f7bfd2e219c83fe32a338"
+  },
+  "best_by_material_and_regime": [
+    {
+      "material": "Johnson-Christy-1972",
+      "regime": "absolute",
+      "best_thickness_nm": 45.0,
+      "best_observation_only_local_bound_riu": 0.00011439117235040448,
+      "separation_fraction_at_best": 0.07869596257187328
+    },
+    {
+      "material": "Johnson-Christy-1972",
+      "regime": "same_device_differential",
+      "best_thickness_nm": 50.0,
+      "best_observation_only_local_bound_riu": 1.667895722956217e-05,
+      "separation_fraction_at_best": 0.7185361096872008
+    },
+    {
+      "material": "Johnson-Christy-1972",
+      "regime": "cross_device_transfer",
+      "best_thickness_nm": 50.0,
+      "best_observation_only_local_bound_riu": 1.7895319950648163e-05,
+      "separation_fraction_at_best": 0.6696964946291893
+    },
+    {
+      "material": "Rakic-LD-1998",
+      "regime": "absolute",
+      "best_thickness_nm": 40.0,
+      "best_observation_only_local_bound_riu": 0.00010784151434195314,
+      "separation_fraction_at_best": 0.11102068067475518
+    },
+    {
+      "material": "Rakic-LD-1998",
+      "regime": "same_device_differential",
+      "best_thickness_nm": 40.0,
+      "best_observation_only_local_bound_riu": 2.3864355895957525e-05,
+      "separation_fraction_at_best": 0.709504483330868
+    },
+    {
+      "material": "Rakic-LD-1998",
+      "regime": "cross_device_transfer",
+      "best_thickness_nm": 45.0,
+      "best_observation_only_local_bound_riu": 2.9101935799290226e-05,
+      "separation_fraction_at_best": 0.6125967511039878
+    },
+    {
+      "material": "Olmon-evaporated-2012",
+      "regime": "absolute",
+      "best_thickness_nm": 45.0,
+      "best_observation_only_local_bound_riu": 0.00011939367196577357,
+      "separation_fraction_at_best": 0.07684889351347846
+    },
+    {
+      "material": "Olmon-evaporated-2012",
+      "regime": "same_device_differential",
+      "best_thickness_nm": 50.0,
+      "best_observation_only_local_bound_riu": 1.5289754762534995e-05,
+      "separation_fraction_at_best": 0.7175901288609772
+    },
+    {
+      "material": "Olmon-evaporated-2012",
+      "regime": "cross_device_transfer",
+      "best_thickness_nm": 50.0,
+      "best_observation_only_local_bound_riu": 1.663038973405466e-05,
+      "separation_fraction_at_best": 0.6597426317492768
+    }
+  ],
+  "interpretation_limit": "differences across traceable optical-constant sources are a sensitivity analysis, not a probability distribution or external validation"
+}

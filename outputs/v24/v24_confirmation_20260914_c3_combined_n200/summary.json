@@ -1,0 +1,29 @@
+{
+  "status": "V24_CONFIRMATION_COMBINED_N200_COMPLETE",
+  "run_id": "v24_confirmation_20260914_c3_combined_n200",
+  "seed": 2026091402,
+  "replicates_per_condition": 200,
+  "replicate_range": [
+    0,
+    199
+  ],
+  "task_count": 12600,
+  "record_count": 25200,
+  "expected_record_count": 25200,
+  "condition_strategy_group_count": 126,
+  "all_group_n": [
+    200
+  ],
+  "optimizer_failure_count": 0,
+  "target_boundary_count": 0,
+  "multi_solution_count": 0,
+  "precision_rule_triggered_after_maximum_n200": true,
+  "precision_extension_limit_reached": true,
+  "further_extension_prohibited_by_frozen_rule": true,
+  "elapsed_seconds": 2.4821114540100098,
+  "base_replicates_sha256": "3ff79b74c03c6c3856afed78bd8075df4c78bebc19a0884e25e663595cb11417",
+  "extension_replicates_sha256": "ed9a1e7e37d60dc4a2ef6697f1dd573d1f3f50f4ae9cf6c9ce84d8f8c9d5fa61",
+  "combined_replicates_sha256": "4edb280a7576c39138a85eeb6d92910cbecaaef23ba9f0aa4c06331393313c4f",
+  "combined_summary_sha256": "3374893e2bd4044d96bf32878347013904b8a7242933bd1c81cb8cc103028cef",
+  "interpretation_limit": "Paired internal Monte Carlo under a named finite-angular-response scenario; not empirical validation or a measured fabrication threshold."
+}

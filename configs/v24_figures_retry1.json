@@ -1,0 +1,9 @@
+{
+  "run_id": "v24_figures_20260914_v2_retry1",
+  "scan_dir": "outputs/v24/v24_scan_20260914_e4_final",
+  "confirmation_dir": "outputs/v24/v24_confirmation_20260914_c1_fast_validated",
+  "output_dir": "figures/v24_retry1",
+  "source_data_dir": "figures/v24_retry1/source_data",
+  "material": "data/raw/materials/Au_Johnson.yml",
+  "retry_reason": "The preserved v1 attempt failed before creating figures because the project-local matplotlib path was not on sys.path."
+}

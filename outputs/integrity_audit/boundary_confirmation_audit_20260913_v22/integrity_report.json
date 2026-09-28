@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "run_id": "boundary_confirmation_audit_20260913_v22",
+  "audit_seed": 2026091503,
+  "hashes": {
+    "input_replicates": "45889ae3fedf3f0becceef6e7b2861129c824138dcb61c4335052cc8b8683fd4",
+    "input_summary": "41a1dc2f107a7e4d59995ce47d867972776a25512853a9f7843bedef643f167c",
+    "input_condition_summary": "a77edcc700a3637218bb91abbd20e72eab6758a6daf8ec703c43f14c75a7074a",
+    "frozen_config": "68465db71818ce98e2c6e3e2ffb0bb5dfac1d40f07f6d517e9ac8b78a129790a",
+    "generator_script": "d11d850bbf85205df268f93635c2030bc101159f3744c6eca4f5a8240f940dc2",
+    "boundary_exploration_summary": "ab1fbd5a3c301c5b64aef695ee9b717b99354207d9bf9917dfec1358fce4e9df"
+  },
+  "generator_reported_status": "FROZEN_INTERNAL_CONFIRMATION_COMPLETE",
+  "record_count": 7200,
+  "expected_records": 7200,
+  "task_count": 3600,
+  "expected_tasks": 3600,
+  "missing_columns": [],
+  "duplicate_unique_keys": [],
+  "missing_or_incomplete_tasks": [],
+  "orphan_rows": [],
+  "schema_note": "The generator did not store task_id, fit_stage, or config_hash per row. This audit reconstructs one final-refined row per strategy and emits a task manifest with the frozen config hash; it does not relabel initial and refined fits as independent replicates.",
+  "interval_method": "mean plus or minus 1.96 Monte Carlo standard errors; simulation Monte Carlo uncertainty, not a device-population confidence interval",
+  "empirical_crossing_assessment": {
+    "largest_tested_magnitude_with_negative_mean_D_nm": 0.03,
+    "smallest_tested_magnitude_with_positive_mean_D_nm": 0.05,
+    "predicted_local_boundary_nm": 0.03098553868161265,
+    "interpretation": "A sign bracket from the tested grid, not a fitted threshold or a device-population interval. Intervals crossing zero indicate limited Monte Carlo resolution near the boundary."
+  },
+  "optimizer_failures": 0,
+  "target_boundary_hits": 0,
+  "multi_solution_flags": 0
+}

@@ -1,0 +1,172 @@
+{
+  "run_id": "v24_confirmation_20260914_c2_extension_rep100_199",
+  "run_class": "frozen_v24_paired_confirmation_predeclared_precision_extension",
+  "selection_source": "outputs/v24/v24_scan_20260914_e4_final/V24_THRESHOLD_PREDICTIONS.csv",
+  "selection_source_sha256": "425571029832126dc224116e9d2a27706d9982e872d331f76ccc94cd3707ece4",
+  "scan_summary_sha256": "0d379d1ea048a5ce75ecc0cf787e7602ed0a7e884f0c2f16c78d52c05f6f1405",
+  "selection_rule": "Nine precomputed anchors crossed with rho in {0, +/-0.5, +/-1, +/-2}; no noisy result entered prediction or condition selection.",
+  "seed": 2026091402,
+  "replicates_per_condition": 100,
+  "replicate_start": 100,
+  "extension_of_run_id": "v24_confirmation_20260914_c1_fast_validated",
+  "extension_trigger_source": "outputs/v24/v24_confirmation_20260914_c1_fast_validated/summary.json",
+  "extension_trigger_source_sha256": "6d1c5dcd728176b03193e0dc8d7ba2eee068da2e3bba8c9aaf96596862f6d18c",
+  "worker_processes": 4,
+  "wavelength_nm": 633.0,
+  "angle_min_deg": 60.0,
+  "angle_max_deg": 80.0,
+  "angle_bins": 201,
+  "baseline_index": 1.333,
+  "sample_delta_index": 0.005,
+  "background_fraction": 0.001,
+  "angular_response": {
+    "name": "top_hat_0p10deg_main",
+    "kind": "top_hat",
+    "width_deg": 0.1,
+    "quadrature_order": 16
+  },
+  "relative_magnitudes": [
+    0.0,
+    -0.5,
+    0.5,
+    -1.0,
+    1.0,
+    -2.0,
+    2.0
+  ],
+  "anchors": [
+    {
+      "anchor_id": "d45_N1e+05",
+      "thickness_nm": 45.0,
+      "total_incident_photons": 100000.0,
+      "K_delta_riu_per_nm": 0.0002773719272644036,
+      "v0_riu2": 3.228334518614459e-08,
+      "v1_riu2": 4.644938759497296e-08,
+      "S_delta_per_nm2": 5.4309583307772,
+      "delta_pred_nm": 0.42910321127263806
+    },
+    {
+      "anchor_id": "d45_N1e+06",
+      "thickness_nm": 45.0,
+      "total_incident_photons": 1000000.0,
+      "K_delta_riu_per_nm": 0.0002773719272643899,
+      "v0_riu2": 3.228334518612795e-09,
+      "v1_riu2": 4.6449387594957074e-09,
+      "S_delta_per_nm2": 54.30958330776369,
+      "delta_pred_nm": 0.13569434989140794
+    },
+    {
+      "anchor_id": "d45_N1e+07",
+      "thickness_nm": 45.0,
+      "total_incident_photons": 10000000.0,
+      "K_delta_riu_per_nm": 0.0002773719272645396,
+      "v0_riu2": 3.2283345186161047e-10,
+      "v1_riu2": 4.644938759500593e-10,
+      "S_delta_per_nm2": 543.0958330776195,
+      "delta_pred_nm": 0.042910321127267774
+    },
+    {
+      "anchor_id": "d50_N1e+05",
+      "thickness_nm": 50.0,
+      "total_incident_photons": 100000.0,
+      "K_delta_riu_per_nm": 0.00020936396292545997,
+      "v0_riu2": 2.792938349781258e-08,
+      "v1_riu2": 3.214844472145077e-08,
+      "S_delta_per_nm2": 10.389341763107897,
+      "delta_pred_nm": 0.3102458519256183
+    },
+    {
+      "anchor_id": "d50_N1e+06",
+      "thickness_nm": 50.0,
+      "total_incident_photons": 1000000.0,
+      "K_delta_riu_per_nm": 0.0002093639629254312,
+      "v0_riu2": 2.79293834978001e-09,
+      "v1_riu2": 3.2148444721437112e-09,
+      "S_delta_per_nm2": 103.89341763107959,
+      "delta_pred_nm": 0.0981083526704287
+    },
+    {
+      "anchor_id": "d50_N1e+07",
+      "thickness_nm": 50.0,
+      "total_incident_photons": 10000000.0,
+      "K_delta_riu_per_nm": 0.00020936396292518862,
+      "v0_riu2": 2.7929383497821485e-10,
+      "v1_riu2": 3.214844472144695e-10,
+      "S_delta_per_nm2": 1038.9341763112313,
+      "delta_pred_nm": 0.031024585192555243
+    },
+    {
+      "anchor_id": "d55_N1e+05",
+      "thickness_nm": 55.0,
+      "total_incident_photons": 100000.0,
+      "K_delta_riu_per_nm": 0.0001654795343606339,
+      "v0_riu2": 4.2481721461788304e-08,
+      "v1_riu2": 4.443697114881073e-08,
+      "S_delta_per_nm2": 14.005104552101205,
+      "delta_pred_nm": 0.26721253205591355
+    },
+    {
+      "anchor_id": "d55_N1e+06",
+      "thickness_nm": 55.0,
+      "total_incident_photons": 1000000.0,
+      "K_delta_riu_per_nm": 0.00016547953436020317,
+      "v0_riu2": 4.2481721461813915e-09,
+      "v1_riu2": 4.4436971148825246e-09,
+      "S_delta_per_nm2": 140.05104552107784,
+      "delta_pred_nm": 0.08450002206372438
+    },
+    {
+      "anchor_id": "d55_N1e+07",
+      "thickness_nm": 55.0,
+      "total_incident_photons": 10000000.0,
+      "K_delta_riu_per_nm": 0.00016547953436052009,
+      "v0_riu2": 4.2481721461928003e-10,
+      "v1_riu2": 4.4436971148946725e-10,
+      "S_delta_per_nm2": 1400.5104552108494,
+      "delta_pred_nm": 0.026721253205584397
+    }
+  ],
+  "bounds": {
+    "q": [
+      1.325,
+      1.35
+    ],
+    "source_thickness_nm": [
+      35.0,
+      65.0
+    ],
+    "mismatch_nm": [
+      -6.0,
+      6.0
+    ],
+    "angle_zero_deg": [
+      -0.1,
+      0.1
+    ],
+    "log_gain": [
+      -0.1,
+      0.1
+    ]
+  },
+  "fit": {
+    "halton_starts": 1,
+    "initial_step_fraction": 0.2,
+    "step_shrink": 0.5,
+    "max_levels": 9,
+    "passes_per_level": 1,
+    "refine_max_iterations": 60,
+    "refine_unit_derivative_step": 1e-05,
+    "multi_solution_deviance_delta": 2.0,
+    "multi_solution_target_separation_riu": 0.0005,
+    "target_boundary_fraction": 0.001
+  },
+  "extension_rule": "Do not extend by default. Extend the entire 9-anchor group from 100 to 200 replicates only if any |rho|=0.5 or 2 paired interval crosses zero AND its MCSE exceeds 0.25 times the absolute local predicted D; never extend to resolve rho=1, where the local predicted difference is zero.",
+  "material": "data/raw/materials/Au_Johnson.yml",
+  "interpretation_limit": "Paired internal Monte Carlo under a named finite-angular-response scenario; not empirical validation or a measured fabrication threshold.",
+  "optimizer_validation_gate": {
+    "robust_config": "configs/v24_optimizer_validation_robust.json",
+    "fast_config": "configs/v24_optimizer_validation_fast.json",
+    "required_before_launch": true,
+    "acceptance": "all paired q estimates differ by <=1e-7 RIU; no objective is worse by >1e-6 half-deviance; zero failures, boundary hits, and multi-solution flags"
+  }
+}

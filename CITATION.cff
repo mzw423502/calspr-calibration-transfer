@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite the associated CalSPR manuscript and this reproducibility archive."
+title: "CalSPR V2.4: Information-source and risk boundaries for SPR calibration transfer"
+type: software
+version: "2.4.1"
+date-released: 2026-09-28
+license: MIT
+repository-code: "https://github.com/mzw423502/calspr-calibration-transfer"
+url: "https://github.com/mzw423502/calspr-calibration-transfer"
+authors:
+  - family-names: Yang
+    given-names: Mengting
+  - family-names: Liu
+    given-names: Qingmin
+  - family-names: Hou
+    given-names: Shanglin
+  - family-names: Wu
+    given-names: Gang
+  - family-names: Yan
+    given-names: Zuyong

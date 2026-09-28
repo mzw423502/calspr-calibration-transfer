@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "run_id": "p3_integrity_20260913_v1",
+  "numpy_version": "1.24.2",
+  "rng": "numpy.random.default_rng (PCG64)",
+  "source_config_sha256": "36adfeb761aea7e98fc31dfd89a77f247e962b894003db55149d75b8348db9a2",
+  "coarse_records_sha256": "e36bb51683e47d1ea2a54e9816d03d2c9426c7cb2e00eef2ab4f47348029bda2",
+  "refined_records_sha256": "a21da649fc087bee1bad542277e0b9c1d6796fbe07772f6b39668e54875a1098",
+  "published_summary_sha256": "85ece23d5ff5ae27672226700ce36ddea53258e63536fac692ac63b15f12a52f",
+  "condition_count": 12,
+  "refined_record_count": 240,
+  "coarse_record_count": 240,
+  "condition_counts": {
+    "absolute|0.0": 20,
+    "same_device_differential|0.0": 20,
+    "transfer_naive|0.0": 20,
+    "transfer_naive|0.5": 20,
+    "transfer_naive|1.0": 20,
+    "transfer_naive|2.0": 20,
+    "transfer_naive|4.0": 20,
+    "transfer_aware|0.0": 20,
+    "transfer_aware|0.5": 20,
+    "transfer_aware|1.0": 20,
+    "transfer_aware|2.0": 20,
+    "transfer_aware|4.0": 20
+  },
+  "coarse_refined_keys_identical": true,
+  "max_absolute_summary_difference": 0.0,
+  "numeric_tolerance": 1e-15,
+  "summary_definitions": {
+    "bias": "mean target error in RIU",
+    "rmse": "square root of mean squared target error in RIU",
+    "mae": "mean absolute target error in RIU",
+    "p95_absolute_error": "numpy linear-interpolated 0.95 quantile of absolute target error in RIU"
+  },
+  "reconstruction_limit": "Fingerprints prove the counts reconstructed by this recorded generator, version, seed, condition order, and call order. Counts were not stored by the original runs, so this audit cannot independently hash the transient arrays used then; source-code and key-order agreement are additional evidence, not a stored-count identity certificate."
+}

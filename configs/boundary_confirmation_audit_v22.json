@@ -1,0 +1,16 @@
+{
+  "run_id": "boundary_confirmation_audit_20260913_v22",
+  "input_replicates": "outputs/boundary_confirmation/boundary_confirm_20260913_c1/replicate_results.csv",
+  "input_summary": "outputs/boundary_confirmation/boundary_confirm_20260913_c1/summary.json",
+  "input_condition_summary": "outputs/boundary_confirmation/boundary_confirm_20260913_c1/condition_summary.csv",
+  "frozen_config": "configs/boundary_confirmation_frozen_v1.json",
+  "generator_script": "scripts/run_boundary_confirmation.py",
+  "boundary_exploration_summary": "outputs/boundary_scan/boundary_20260913_e1/summary.json",
+  "expected_frozen_config_sha256": "68465db71818ce98e2c6e3e2ffb0bb5dfac1d40f07f6d517e9ac8b78a129790a",
+  "expected_generator_script_sha256": "d11d850bbf85205df268f93635c2030bc101159f3744c6eca4f5a8240f940dc2",
+  "expected_replicates_per_condition": 200,
+  "expected_tasks": 3600,
+  "expected_records": 7200,
+  "interval_method": "mean plus or minus 1.96 Monte Carlo standard errors; simulation Monte Carlo uncertainty, not a device-population confidence interval",
+  "seed": 2026091503
+}

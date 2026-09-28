@@ -1,0 +1,657 @@
+{
+  "scope": "all newly rendered text boxes; unchanged native panels reviewed visually",
+  "text_count": 54,
+  "outside_canvas": [],
+  "overlapping_text_boxes": [],
+  "boxes": [
+    {
+      "figure": "Figure6",
+      "panel": "a",
+      "text": "Predeclared windows separate critical and SPR features",
+      "bbox": [
+        134,
+        40,
+        990,
+        67
+      ],
+      "role": "base"
+    },
+    {
+      "figure": "Figure6",
+      "panel": "c",
+      "text": "c",
+      "bbox": [
+        16,
+        806,
+        37,
+        826
+      ],
+      "role": "letter"
+    },
+    {
+      "figure": "Figure6",
+      "panel": "c",
+      "text": "Equal budget favors the focused SPR window",
+      "bbox": [
+        217.0,
+        820,
+        908.0,
+        847
+      ],
+      "role": "base"
+    },
+    {
+      "figure": "Figure6",
+      "panel": "c",
+      "text": "Strategy",
+      "bbox": [
+        539.5,
+        1531,
+        655.5,
+        1557
+      ],
+      "role": "base"
+    },
+    {
+      "figure": "Figure6",
+      "panel": "c",
+      "text": "Local SD (micro-RIU)",
+      "bbox": [
+        23,
+        1014,
+        51,
+        1297
+      ],
+      "role": "base"
+    },
+    {
+      "figure": "Figure6",
+      "panel": "c",
+      "text": "Full F",
+      "bbox": [
+        232.875,
+        1462,
+        289.875,
+        1479
+      ],
+      "role": "tick"
+    },
+    {
+      "figure": "Figure6",
+      "panel": "c",
+      "text": "Critical C",
+      "bbox": [
+        435.625,
+        1462,
+        534.625,
+        1479
+      ],
+      "role": "tick"
+    },
+    {
+      "figure": "Figure6",
+      "panel": "c",
+      "text": "SPR S",
+      "bbox": [
+        677.375,
+        1463,
+        740.375,
+        1479
+      ],
+      "role": "tick"
+    },
+    {
+      "figure": "Figure6",
+      "panel": "c",
+      "text": "Bare prism P",
+      "bbox": [
+        863.125,
+        1462,
+        1003.125,
+        1484
+      ],
+      "role": "tick"
+    },
+    {
+      "figure": "Figure6",
+      "panel": "c",
+      "text": "0",
+      "bbox": [
+        121,
+        1432.0,
+        135,
+        1448.0
+      ],
+      "role": "tick"
+    },
+    {
+      "figure": "Figure6",
+      "panel": "c",
+      "text": "50",
+      "bbox": [
+        107,
+        1262.0098987074932,
+        135,
+        1278.0098987074932
+      ],
+      "role": "tick"
+    },
+    {
+      "figure": "Figure6",
+      "panel": "c",
+      "text": "100",
+      "bbox": [
+        93,
+        1092.0197974149864,
+        135,
+        1108.0197974149864
+      ],
+      "role": "tick"
+    },
+    {
+      "figure": "Figure6",
+      "panel": "c",
+      "text": "150",
+      "bbox": [
+        93,
+        922.0296961224797,
+        135,
+        938.0296961224797
+      ],
+      "role": "tick"
+    },
+    {
+      "figure": "Figure6",
+      "panel": "d",
+      "text": "d",
+      "bbox": [
+        1096,
+        799,
+        1122,
+        826
+      ],
+      "role": "letter"
+    },
+    {
+      "figure": "Figure6",
+      "panel": "d",
+      "text": "Critical-angle designs retain grid-phase sensitivity",
+      "bbox": [
+        1256.0,
+        820,
+        2028.0,
+        847
+      ],
+      "role": "base"
+    },
+    {
+      "figure": "Figure6",
+      "panel": "d",
+      "text": "Grid phase (fraction of spacing)",
+      "bbox": [
+        1463.5,
+        1530,
+        1891.5,
+        1557
+      ],
+      "role": "base"
+    },
+    {
+      "figure": "Figure6",
+      "panel": "d",
+      "text": "SD / centre-phase SD",
+      "bbox": [
+        1102,
+        1010,
+        1133,
+        1302
+      ],
+      "role": "base"
+    },
+    {
+      "figure": "Figure6",
+      "panel": "d",
+      "text": "-0.5",
+      "bbox": [
+        1242.1481481481483,
+        1463,
+        1285.1481481481483,
+        1479
+      ],
+      "role": "tick"
+    },
+    {
+      "figure": "Figure6",
+      "panel": "d",
+      "text": "-0.25",
+      "bbox": [
+        1442.3240740740741,
+        1463,
+        1499.3240740740741,
+        1479
+      ],
+      "role": "tick"
+    },
+    {
+      "figure": "Figure6",
+      "panel": "d",
+      "text": "0",
+      "bbox": [
+        1670.5,
+        1463,
+        1684.5,
+        1479
+      ],
+      "role": "tick"
+    },
+    {
+      "figure": "Figure6",
+      "panel": "d",
+      "text": "0.25",
+      "bbox": [
+        1859.675925925926,
+        1463,
+        1908.675925925926,
+        1479
+      ],
+      "role": "tick"
+    },
+    {
+      "figure": "Figure6",
+      "panel": "d",
+      "text": "0.5",
+      "bbox": [
+        2073.8518518518517,
+        1463,
+        2108.8518518518517,
+        1479
+      ],
+      "role": "tick"
+    },
+    {
+      "figure": "Figure6",
+      "panel": "d",
+      "text": "1",
+      "bbox": [
+        1201,
+        1362.69016319763,
+        1215,
+        1378.69016319763
+      ],
+      "role": "tick"
+    },
+    {
+      "figure": "Figure6",
+      "panel": "d",
+      "text": "1.05",
+      "bbox": [
+        1166,
+        1189.4155711917047,
+        1215,
+        1205.4155711917047
+      ],
+      "role": "tick"
+    },
+    {
+      "figure": "Figure6",
+      "panel": "d",
+      "text": "1.1",
+      "bbox": [
+        1180,
+        1016.1409791857795,
+        1215,
+        1032.1409791857795
+      ],
+      "role": "tick"
+    },
+    {
+      "figure": "Figure6",
+      "panel": "d",
+      "text": "1.14",
+      "bbox": [
+        1166,
+        877.5213055810401,
+        1215,
+        893.5213055810401
+      ],
+      "role": "tick"
+    },
+    {
+      "figure": "Figure6",
+      "panel": "d",
+      "text": "F",
+      "bbox": [
+        1287,
+        891,
+        1301,
+        909
+      ],
+      "role": "legend"
+    },
+    {
+      "figure": "Figure6",
+      "panel": "d",
+      "text": "C",
+      "bbox": [
+        1502,
+        891,
+        1519,
+        909
+      ],
+      "role": "legend"
+    },
+    {
+      "figure": "Figure6",
+      "panel": "d",
+      "text": "S",
+      "bbox": [
+        1287,
+        929,
+        1302,
+        947
+      ],
+      "role": "legend"
+    },
+    {
+      "figure": "Figure6",
+      "panel": "d",
+      "text": "P",
+      "bbox": [
+        1502,
+        929,
+        1516,
+        947
+      ],
+      "role": "legend"
+    },
+    {
+      "figure": "Figure7",
+      "panel": "c",
+      "text": "c",
+      "bbox": [
+        1456,
+        26,
+        1477,
+        46
+      ],
+      "role": "letter"
+    },
+    {
+      "figure": "Figure7",
+      "panel": "c",
+      "text": "Paired inversion tests local risk",
+      "bbox": [
+        1582.0,
+        40,
+        2063.0,
+        61
+      ],
+      "role": "base"
+    },
+    {
+      "figure": "Figure7",
+      "panel": "c",
+      "text": "Local predicted D / (v1-v0)",
+      "bbox": [
+        1678.5,
+        870,
+        2037.5,
+        897
+      ],
+      "role": "base"
+    },
+    {
+      "figure": "Figure7",
+      "panel": "c",
+      "text": "Observed paired D / (v1-v0)",
+      "bbox": [
+        1462,
+        246,
+        1493,
+        626
+      ],
+      "role": "base"
+    },
+    {
+      "figure": "Figure7",
+      "panel": "c",
+      "text": "-1",
+      "bbox": [
+        1612.4375,
+        803,
+        1634.4375,
+        819
+      ],
+      "role": "tick"
+    },
+    {
+      "figure": "Figure7",
+      "panel": "c",
+      "text": "0",
+      "bbox": [
+        1727.8958333333333,
+        803,
+        1741.8958333333333,
+        819
+      ],
+      "role": "tick"
+    },
+    {
+      "figure": "Figure7",
+      "panel": "c",
+      "text": "1",
+      "bbox": [
+        1839.3541666666665,
+        803,
+        1853.3541666666665,
+        819
+      ],
+      "role": "tick"
+    },
+    {
+      "figure": "Figure7",
+      "panel": "c",
+      "text": "2",
+      "bbox": [
+        1950.8125,
+        803,
+        1964.8125,
+        819
+      ],
+      "role": "tick"
+    },
+    {
+      "figure": "Figure7",
+      "panel": "c",
+      "text": "3",
+      "bbox": [
+        2062.2708333333335,
+        803,
+        2076.2708333333335,
+        819
+      ],
+      "role": "tick"
+    },
+    {
+      "figure": "Figure7",
+      "panel": "c",
+      "text": "-4",
+      "bbox": [
+        1553,
+        747.6028368794326,
+        1575,
+        763.6028368794326
+      ],
+      "role": "tick"
+    },
+    {
+      "figure": "Figure7",
+      "panel": "c",
+      "text": "-2",
+      "bbox": [
+        1553,
+        650.0141843971631,
+        1575,
+        666.0141843971631
+      ],
+      "role": "tick"
+    },
+    {
+      "figure": "Figure7",
+      "panel": "c",
+      "text": "0",
+      "bbox": [
+        1561,
+        552.4255319148936,
+        1575,
+        568.4255319148936
+      ],
+      "role": "tick"
+    },
+    {
+      "figure": "Figure7",
+      "panel": "c",
+      "text": "2",
+      "bbox": [
+        1561,
+        454.83687943262413,
+        1575,
+        470.83687943262413
+      ],
+      "role": "tick"
+    },
+    {
+      "figure": "Figure7",
+      "panel": "c",
+      "text": "4",
+      "bbox": [
+        1561,
+        357.24822695035465,
+        1575,
+        373.24822695035465
+      ],
+      "role": "tick"
+    },
+    {
+      "figure": "Figure7",
+      "panel": "c",
+      "text": "6",
+      "bbox": [
+        1561,
+        259.6595744680851,
+        1575,
+        275.6595744680851
+      ],
+      "role": "tick"
+    },
+    {
+      "figure": "Figure7",
+      "panel": "c",
+      "text": "8",
+      "bbox": [
+        1561,
+        162.07092198581552,
+        1575,
+        178.07092198581552
+      ],
+      "role": "tick"
+    },
+    {
+      "figure": "Figure7",
+      "panel": "c",
+      "text": "Thickness",
+      "bbox": [
+        1605,
+        114,
+        1725,
+        132
+      ],
+      "role": "legend"
+    },
+    {
+      "figure": "Figure7",
+      "panel": "c",
+      "text": "Photons",
+      "bbox": [
+        1811,
+        114,
+        1907,
+        132
+      ],
+      "role": "legend"
+    },
+    {
+      "figure": "Figure7",
+      "panel": "c",
+      "text": "45 nm",
+      "bbox": [
+        1635,
+        157,
+        1712,
+        175
+      ],
+      "role": "legend"
+    },
+    {
+      "figure": "Figure7",
+      "panel": "c",
+      "text": "10\u2075",
+      "bbox": [
+        1854,
+        157,
+        1894,
+        175
+      ],
+      "role": "legend"
+    },
+    {
+      "figure": "Figure7",
+      "panel": "c",
+      "text": "50 nm",
+      "bbox": [
+        1635,
+        194,
+        1712,
+        212
+      ],
+      "role": "legend"
+    },
+    {
+      "figure": "Figure7",
+      "panel": "c",
+      "text": "10\u2076",
+      "bbox": [
+        1854,
+        194,
+        1894,
+        212
+      ],
+      "role": "legend"
+    },
+    {
+      "figure": "Figure7",
+      "panel": "c",
+      "text": "55 nm",
+      "bbox": [
+        1635,
+        231,
+        1712,
+        249
+      ],
+      "role": "legend"
+    },
+    {
+      "figure": "Figure7",
+      "panel": "c",
+      "text": "10\u2077",
+      "bbox": [
+        1854,
+        231,
+        1894,
+        249
+      ],
+      "role": "legend"
+    }
+  ],
+  "pass": true
+}

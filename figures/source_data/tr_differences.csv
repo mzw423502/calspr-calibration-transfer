@@ -1,0 +1,13 @@
+scenario_id,scenario,strategy_a,strategy_b,comparison_design,mean_mse_difference_a_minus_b_riu2,mcse_riu2,mc_interval_low_riu2,mc_interval_high_riu2
+0,stable_angle_near_boundary_negative,T1,T_R,independent protocol-specific Poisson streams; not paired,5.0663100352028386e-11,3.6690599758561756e-11,-2.1250475174752658e-11,1.2257667587880943e-10
+0,stable_angle_near_boundary_negative,T2,T_R,independent protocol-specific Poisson streams; not paired,1.8165295223090487e-11,3.808933613327289e-11,-5.6489803598124374e-11,9.282039404430535e-11
+0,stable_angle_near_boundary_negative,T1,T2,independent protocol-specific Poisson streams; not paired,3.24978051289379e-11,3.726760915984243e-11,-4.054670882435326e-11,1.0554231908222906e-10
+1,stable_angle_near_boundary_positive,T1,T_R,independent protocol-specific Poisson streams; not paired,7.323405094792211e-11,4.321036650850512e-11,-1.1458267408747932e-11,1.5792636930459216e-10
+1,stable_angle_near_boundary_positive,T2,T_R,independent protocol-specific Poisson streams; not paired,4.0687852641117466e-11,3.827492893553282e-11,-3.433100807252686e-11,1.1570671335476179e-10
+1,stable_angle_near_boundary_positive,T1,T2,independent protocol-specific Poisson streams; not paired,3.2546198306804646e-11,4.616537023041138e-11,-5.7937927344801664e-11,1.2303032395841096e-10
+2,target_reinstallation_negative,T1,T_R,independent protocol-specific Poisson streams; not paired,2.1172057394507158e-08,1.8258022096243566e-09,1.759348506364342e-08,2.4750629725370897e-08
+2,target_reinstallation_negative,T2,T_R,independent protocol-specific Poisson streams; not paired,5.7527270741661764e-11,3.76168810218964e-11,-1.6201816061255175e-11,1.312563575445787e-10
+2,target_reinstallation_negative,T1,T2,independent protocol-specific Poisson streams; not paired,2.1114530123765496e-08,1.825889400130723e-09,1.753578689950928e-08,2.4693273348021713e-08
+3,target_reinstallation_positive,T1,T_R,independent protocol-specific Poisson streams; not paired,2.2445051905095865e-08,1.91546307437921e-09,1.869074427931261e-08,2.6199359530879118e-08
+3,target_reinstallation_positive,T2,T_R,independent protocol-specific Poisson streams; not paired,-4.78277912200134e-11,4.0847168784777997e-11,-1.2788824203817828e-10,3.223265959815147e-11
+3,target_reinstallation_positive,T1,T2,independent protocol-specific Poisson streams; not paired,2.2492879696315878e-08,1.9153977705516687e-09,1.8738700066034606e-08,2.624705932659715e-08

@@ -1,0 +1,5 @@
+# Historical runtime versions; not a universal pip lockfile.
+# Kylin Python 3.12.3 used distro NumPy 1.24.2 and Pillow 10.2.0.
+# Optional vendored Matplotlib 3.8.4 and Pillow 10.3.0 binaries are not bundled.
+# NumPy 1.24.2 has no standard upstream CPython-3.12 wheel; use requirements.txt
+# for a supported portable environment and rerun deterministic tests.

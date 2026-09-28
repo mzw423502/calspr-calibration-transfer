@@ -1,0 +1,44 @@
+[
+  {
+    "historical_figure": 6,
+    "submission_figure": 1,
+    "source": "figures/v24_final/source_data",
+    "topic": "Information sources"
+  },
+  {
+    "historical_figure": 2,
+    "submission_figure": 2,
+    "source": "figures/source_data",
+    "topic": "Geometry and pseudo-true fits"
+  },
+  {
+    "historical_figure": 7,
+    "submission_figure": 3,
+    "source": "figures/v24_final_author_cleanup_20260917/source_data",
+    "topic": "Scale predictions and confirmation"
+  },
+  {
+    "historical_figure": 1,
+    "submission_figure": 4,
+    "source": "figures/source_data",
+    "topic": "Transfer boundary"
+  },
+  {
+    "historical_figure": 3,
+    "submission_figure": 5,
+    "source": "figures/source_data",
+    "topic": "Paired confirmation"
+  },
+  {
+    "historical_figure": 4,
+    "submission_figure": 6,
+    "source": "figures/source_data",
+    "topic": "Target recalibration"
+  },
+  {
+    "historical_figure": 5,
+    "submission_figure": 7,
+    "source": "figures/source_data",
+    "topic": "Material-model boundary"
+  }
+]

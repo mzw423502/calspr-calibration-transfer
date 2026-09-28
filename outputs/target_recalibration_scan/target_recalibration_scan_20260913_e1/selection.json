@@ -1,0 +1,66 @@
+{
+  "selection_rule": "Within each predeclared method-specific grid, minimize local q standard deviation separately for stable-angle and angle-aware models. T_R is the exact zero-source-reference boundary and starts from a 0/0.50/0.50 allocation. No noisy outcomes enter allocation selection.",
+  "selected": {
+    "T1_stable_angle": {
+      "strategy": "T1",
+      "source_reference_fraction": 0.5,
+      "target_reference_fraction": 0.0,
+      "target_sample_fraction": 0.5,
+      "angle_model": "stable_angle",
+      "effective_information": 3118036422.794953,
+      "local_sd_riu": 1.7908508112651653e-05,
+      "target_derivative_norm_retained": 0.6698715768474495,
+      "target_information_fraction_retained": 0.44872792946808837,
+      "nuisance_rank": 4
+    },
+    "T1_angle_aware": {
+      "strategy": "T1",
+      "source_reference_fraction": 0.2,
+      "target_reference_fraction": 0.0,
+      "target_sample_fraction": 0.8,
+      "angle_model": "angle_aware",
+      "effective_information": 46671949.93288067,
+      "local_sd_riu": 0.00014637672531384716,
+      "target_derivative_norm_retained": 0.06479163514309999,
+      "target_information_fraction_retained": 0.0041979559845165895,
+      "nuisance_rank": 5
+    },
+    "T2_stable_angle": {
+      "strategy": "T2",
+      "source_reference_fraction": 0.1,
+      "target_reference_fraction": 0.36,
+      "target_sample_fraction": 0.54,
+      "angle_model": "stable_angle",
+      "effective_information": 3513798735.3937507,
+      "local_sd_riu": 1.68698631242471e-05,
+      "target_derivative_norm_retained": 0.6842700349202108,
+      "target_information_fraction_retained": 0.4682254806897065,
+      "nuisance_rank": 4
+    },
+    "T2_angle_aware": {
+      "strategy": "T2",
+      "source_reference_fraction": 0.1,
+      "target_reference_fraction": 0.45,
+      "target_sample_fraction": 0.45,
+      "angle_model": "angle_aware",
+      "effective_information": 3230031337.6462827,
+      "local_sd_riu": 1.7595298221852642e-05,
+      "target_derivative_norm_retained": 0.7186758841592344,
+      "target_information_fraction_retained": 0.5164950264720574,
+      "nuisance_rank": 5
+    },
+    "T_R_target_common_angle_fitted": {
+      "strategy": "T_R",
+      "source_reference_fraction": 0.0,
+      "target_reference_fraction": 0.5,
+      "target_sample_fraction": 0.5,
+      "angle_model": "target_common_angle_fitted",
+      "effective_information": 3588693097.439511,
+      "local_sd_riu": 1.6692901868187907e-05,
+      "target_derivative_norm_retained": 0.7186527940518931,
+      "target_information_fraction_retained": 0.5164618383985926,
+      "nuisance_rank": 3
+    }
+  },
+  "noisy_outcomes_used_for_selection": false
+}

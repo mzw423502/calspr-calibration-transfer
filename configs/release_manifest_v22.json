@@ -1,0 +1,40 @@
+{
+  "run_id": "release_manifest_20260913_v22",
+  "seed": 2026091505,
+  "include_globs": [
+    "AGENTS.md",
+    "README.md",
+    "manuscript_state_v22.json",
+    "data/raw/materials/*",
+    "configs/*.json",
+    "scripts/run_*.py",
+    "scripts/launch_*v22*.sh",
+    "scripts/calspr/*.py",
+    "docs/*V22*",
+    "docs/MEASUREMENT_PROTOCOL_ACTUAL.md",
+    "docs/BIAS_VARIANCE_DERIVATION.md",
+    "docs/LITERATURE_POSITIONING_V21.md",
+    "manuscript/CalSPR_V22_*",
+    "outputs/boundary_scan/boundary_20260913_e1/*",
+    "outputs/boundary_confirmation/boundary_confirm_20260913_c1/*",
+    "outputs/target_recalibration_scan/target_recalibration_scan_20260913_e1/*",
+    "outputs/target_recalibration_confirmation/target_recalibration_confirm_20260913_c1/*",
+    "outputs/derivative_validation/derivatives_20260913_v1/*",
+    "outputs/integrity_audit/boundary_confirmation_audit_20260913_v22/*",
+    "outputs/integrity_audit/target_recalibration_audit_20260913_v22/*",
+    "outputs/integrity_audit/p3_integrity_20260913_v1/*",
+    "outputs/information_label_correction/information_labels_20260913_v21/*",
+    "outputs/p3_refine/p3r_20260913_v1/*",
+    "outputs/p4_materials/p4m_20260913_v1/*",
+    "outputs/manuscript_tables/tables_20260913_v22/*",
+    "figures/main/*",
+    "figures/source_data/*",
+    "logs/*.log",
+    "logs/*.status",
+    "logs/*.pid"
+  ],
+  "exclude_globs": [
+    "outputs/release_manifest/**",
+    "scripts/__pycache__/**"
+  ]
+}

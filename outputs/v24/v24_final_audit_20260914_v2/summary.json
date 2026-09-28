@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "check_count": 23,
+  "failed_checks": [],
+  "claim_values": {
+    "projected_information_shares": {
+      "C": 0.00252181089436752,
+      "S": 0.7709462345023186,
+      "O": 0.22653195460331388
+    },
+    "equal_budget_local_sd_riu": {
+      "F": 1.67120864938587e-05,
+      "C": 0.00014916834959413373,
+      "S": 8.749305876689905e-06,
+      "CS": 8.749305876689905e-06,
+      "P": 2.732814610204492e-05
+    },
+    "cs_selected_critical_weight": 0.0,
+    "threshold_min_nm": 0.026721253205584397,
+    "threshold_max_nm": 0.42910321127263806,
+    "rho0_resolved_negative": 7,
+    "rho0_total": 9,
+    "subthreshold_mean_negative": 16,
+    "subthreshold_total": 18,
+    "rho2_resolved_positive": 15,
+    "rho2_total": 18,
+    "rho1_unresolved": 17,
+    "rho1_total": 18,
+    "n200_precision_triggers": 14,
+    "interpretation": "Internal finite-response simulation; not experimental or external validation."
+  },
+  "source_hashes": {
+    "B_summary": "52cac481e7a1e687d186bce005bf527a2d8a543eb791f0ee86740a57eab84909",
+    "B_replicates": "4edb280a7576c39138a85eeb6d92910cbecaaef23ba9f0aa4c06331393313c4f",
+    "B_condition_summary": "3374893e2bd4044d96bf32878347013904b8a7242933bd1c81cb8cc103028cef",
+    "A_summary": "5470c60dd3c2626afb66c516ec7055d4305e9b613338296edd80cacb629bb7a8",
+    "scan_summary": "0d379d1ea048a5ce75ecc0cf787e7602ed0a7e884f0c2f16c78d52c05f6f1405",
+    "figure_manifest": "c53d4b480964754c2af8b181753819a62f0f36f411564a254cb2dd496563651c"
+  }
+}

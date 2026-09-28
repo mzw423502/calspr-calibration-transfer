@@ -1,0 +1,60 @@
+{
+  "run_id": "target_recalibration_confirm_20260913_c1",
+  "run_class": "frozen_internal_strong_control_confirmation",
+  "frozen_utc": "2026-09-13T14:25:00Z",
+  "allocation_selection_source": "outputs/target_recalibration_scan/target_recalibration_scan_20260913_e1/selection.json",
+  "allocation_selection_source_sha256": "9783f1249f262b83627db7c9130349441b885f55cd30da17db806231358278b2",
+  "allocation_selection_rule": "Method-specific grid minimum local q standard deviation, selected separately for stable-angle and angle-aware models before noisy strong-control outcomes.",
+  "seed": 2026091504,
+  "replicates_per_condition": 200,
+  "worker_processes": 4,
+  "wavelength_nm": 633.0,
+  "angle_min_deg": 60.0,
+  "angle_max_deg": 80.0,
+  "angle_bins": 201,
+  "baseline_index": 1.3330,
+  "sample_delta_index": 0.0050,
+  "gold_thickness_nm": 50.0,
+  "total_incident_photons": 10000000.0,
+  "background_fraction": 0.001,
+  "allocations": {
+    "stable_angle": {
+      "T1": [0.50, 0.00, 0.50],
+      "T2": [0.10, 0.36, 0.54],
+      "T_R": [0.00, 0.50, 0.50]
+    },
+    "angle_aware": {
+      "T1": [0.20, 0.00, 0.80],
+      "T2": [0.10, 0.45, 0.45],
+      "T_R": [0.00, 0.50, 0.50]
+    }
+  },
+  "conditions": [
+    {"condition_id": 0, "scenario": "stable_angle_near_boundary_negative", "mismatch_nm": -0.03, "target_angle_offset_deg": 0.0, "angle_aware": false},
+    {"condition_id": 1, "scenario": "stable_angle_near_boundary_positive", "mismatch_nm": 0.03, "target_angle_offset_deg": 0.0, "angle_aware": false},
+    {"condition_id": 2, "scenario": "target_reinstallation_negative", "mismatch_nm": 0.0, "target_angle_offset_deg": -0.002, "angle_aware": true},
+    {"condition_id": 3, "scenario": "target_reinstallation_positive", "mismatch_nm": 0.0, "target_angle_offset_deg": 0.002, "angle_aware": true}
+  ],
+  "bounds": {
+    "q": [1.325, 1.350],
+    "source_thickness_nm": [35.0, 65.0],
+    "mismatch_nm": [-6.0, 6.0],
+    "angle_zero_deg": [-0.10, 0.10],
+    "target_angle_offset_deg": [-0.05, 0.05],
+    "log_gain": [-0.10, 0.10]
+  },
+  "fit": {
+    "halton_starts": 4,
+    "initial_step_fraction": 0.20,
+    "step_shrink": 0.5,
+    "max_levels": 9,
+    "passes_per_level": 2,
+    "refine_max_iterations": 60,
+    "refine_unit_derivative_step": 0.00001,
+    "multi_solution_deviance_delta": 2.0,
+    "multi_solution_target_separation_riu": 0.0005,
+    "target_boundary_fraction": 0.001
+  },
+  "material": "data/raw/materials/Au_Johnson.yml",
+  "predeclared_interpretation": "Limited internal Monte Carlo confirmation of the target-only recalibration strong control under four representative states selected from the prior frozen scientific domain. T1, T2, and T_R use independent protocol-specific Poisson streams, so cross-strategy MSE differences are not paired. Two hundred replicates quantify simulation Monte Carlo resolution, not a manufactured-device population."
+}

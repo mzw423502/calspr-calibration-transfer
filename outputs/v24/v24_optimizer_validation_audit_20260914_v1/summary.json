@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "run_id": "v24_optimizer_validation_audit_20260914_v1",
+  "record_count": 126,
+  "failed_record_count": 0,
+  "max_abs_q_difference_riu": 2.5384352397850307e-09,
+  "max_fast_objective_excess_half_deviance": 9.688960744824726e-11,
+  "fast_diagnostic_count": 0,
+  "elapsed_seconds": 0.009887456893920898,
+  "config_sha256": "7403e74d8805c217d20b056e0c26b8fac46a359ad25bd7126ea5457f6e69db1d",
+  "robust_records_sha256": "28a76d5a4c89cca15439fb114997914dd8304cd750cd55caa7f561238802cc77",
+  "fast_records_sha256": "098d07c6f8f4c7df60e3015b66ae734a777c6af3b9943bc9d2414f872165d0b0",
+  "audit_csv_sha256": "e3cf26d560a92cd0fea70f05db01d14753eed60e668617937a12f0f75fa97c4c"
+}

@@ -1,0 +1,10 @@
+{
+  "run_id": "v24_figures_20260914_pillow_v3_final_n200",
+  "scan_dir": "outputs/v24/v24_scan_20260914_e4_final",
+  "confirmation_dir": "outputs/v24/v24_confirmation_20260914_c3_combined_n200",
+  "output_dir": "figures/v24_final",
+  "source_data_dir": "figures/v24_final/source_data",
+  "material": "data/raw/materials/Au_Johnson.yml",
+  "renderer": "Pillow 300-dpi PNG with matched raster PDF",
+  "retry_reason": "Final rendering after the frozen n=200 precision extension and combined-summary audit."
+}

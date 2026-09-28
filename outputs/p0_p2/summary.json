@@ -1,0 +1,21 @@
+{
+  "status": "EXPLORATORY_COMPLETE",
+  "elapsed_seconds": 0.5473320484161377,
+  "seed": 20260913,
+  "config_sha256": "7ecf6349584d57d2d50b41270b8dc2455cae3cdf6767cdeb239e99f3ec7b91db",
+  "gold_source_sha256": "9f4bdab6bd49f7c6a1c48b5fb5482c7448caf4b6de39594a34ecd66dcf592774",
+  "materials": {
+    "bk7_n_at_wavelength": 1.5150823520020043,
+    "gold_nk_at_wavelength": "(0.18344262295081976+3.4332412177985945j)"
+  },
+  "single_peak_identifiability": {
+    "observations": 1,
+    "unknowns_example": 3,
+    "maximum_jacobian_rank": 1,
+    "conclusion": "one peak location cannot locally identify q, thickness, and angle zero"
+  },
+  "files": [
+    "resonance_scan.csv",
+    "information_scan.csv"
+  ]
+}

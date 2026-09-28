@@ -1,0 +1,7 @@
+angle_model,strategy,source_reference_fraction,target_reference_fraction,target_sample_fraction,local_sd_riu,target_information_fraction_retained,grid_selected
+stable_angle,T1,0.5,0.0,0.5,1.7908508112651653e-05,0.44872792946808837,1
+stable_angle,T2,0.1,0.36,0.54,1.68698631242471e-05,0.4682254806897065,1
+stable_angle,T_R,0.0,0.5,0.5,1.6692901868187907e-05,0.5164618383985926,1
+angle_aware,T1,0.2,0.0,0.8,0.00014637672531384716,0.0041979559845165895,1
+angle_aware,T2,0.1,0.45,0.45,1.7595298221852642e-05,0.5164950264720574,1
+angle_aware,T_R,0.0,0.5,0.5,1.6692901868187907e-05,0.5164618383985926,1

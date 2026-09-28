@@ -1,0 +1,10 @@
+{
+  "run_id": "v24_optimizer_validation_audit_20260914_v1",
+  "run_class": "semantic_and_numerical_optimizer_equivalence_audit",
+  "seed": 2026091402,
+  "robust_records": "outputs/v24/v24_optimizer_validation_robust_20260914_v2_retry1/V24_REPLICATES.csv",
+  "fast_records": "outputs/v24/v24_optimizer_validation_fast_20260914_v1/V24_REPLICATES.csv",
+  "max_abs_q_difference_riu": 0.0000001,
+  "max_fast_objective_excess_half_deviance": 0.000001,
+  "require_zero_diagnostics": true
+}

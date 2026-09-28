@@ -1,0 +1,6 @@
+{
+  "run_id": "information_labels_20260913_v21",
+  "seed": 20260913,
+  "input": "outputs/p0_p2/information_scan.csv",
+  "output_directory": "outputs/information_label_correction/information_labels_20260913_v21"
+}

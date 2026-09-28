@@ -1,0 +1,23 @@
+{
+  "status": "COMPLETE",
+  "run_id": "tables_20260913_v22",
+  "seed": 2026091506,
+  "config_sha256": "334254cf21cf3d9aac15131a4fe90fd8c8eccd8600b200ada2bf66bef40f357a",
+  "script_sha256": "7ec9d3f0d7e0ecd000246a6c9ab6406d5679c3bd2ad0c5af9ceeb010d4c28652",
+  "input_hashes": {
+    "boundary_audit_report": "3b99163a3d323dc84c0ab75e4590a949faef8491234747be4451b3edebc7224e",
+    "boundary_condition_summary": "594c0142b08641b904d1689e3c0ca146fb09df6521f5529008a355144d430b81",
+    "boundary_symmetric_risk": "88a188417866ddbe28d23312720dd69340fe9b035263f1a86ae89a4a55d499c9",
+    "target_scan_summary": "7d0c6025e056a3b030dfe45e78fd0e5706654b9a6245fab5308c3af4b410d9e0",
+    "target_confirmation_summary": "89b0632b809d61a7971a7b5dbfaef50ba1123594f3d2cd5006dcdd318ec8c905",
+    "material_mismatch": "d897d745a97bc82925235ba612ebc887c72f0263f4a1e3b3b833afcbb501a72e"
+  },
+  "tables": {
+    "table1_selected_allocations_and_local_information.csv": "2e163bf07ee75a011fbe84f1cb2ebe8a7edf57e5191f013524432940ffeb92ea",
+    "table2_boundary_confirmation.csv": "88a188417866ddbe28d23312720dd69340fe9b035263f1a86ae89a4a55d499c9",
+    "table3_target_angle_confirmation.csv": "5d0b4e9e259b7fde77fd56e1db345377e20c3e7966f89f8d72601b83c5182885",
+    "table4_target_recalibration_confirmation.csv": "f5ff841ad5dd9aaa9ff138e44306d1694348262d6d31fb528e51933ab3cebcd9",
+    "table5_target_recalibration_risk_differences.csv": "031f02301fa38e0bbc62036ff78ccd16245ed1bbf68c77ed9daa8f6b361c7ecd",
+    "tableS1_material_model_mismatch.csv": "d897d745a97bc82925235ba612ebc887c72f0263f4a1e3b3b833afcbb501a72e"
+  }
+}

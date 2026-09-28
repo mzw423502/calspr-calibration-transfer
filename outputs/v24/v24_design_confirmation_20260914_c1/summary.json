@@ -1,0 +1,16 @@
+{
+  "status": "V24_DESIGN_CONFIRMATION_COMPLETE",
+  "run_id": "v24_design_confirmation_20260914_c1",
+  "seed": 2026091403,
+  "task_count": 1600,
+  "record_count": 1600,
+  "expected_record_count": 1600,
+  "optimizer_failure_count": 0,
+  "target_boundary_count": 0,
+  "multi_solution_count": 0,
+  "elapsed_seconds": 348.2853744029999,
+  "config_sha256": "62b1657ea20622f106aa7446a0493d90fab58ad6d4b86913237a1fe6d218efd4",
+  "selection_source_sha256": "cac99b4fb7cc45412d7149db2456ca3aaa8484979b1a0d68d78c238aee44e50a",
+  "records_sha256": "79bfdaf1f7da1e0df77a7b231edc78b5ffff937bc32c0fe581c2ad2b84e54928",
+  "interpretation_limit": "Internal model-matched equal-budget confirmation. P estimates bulk refractive index without gold and has no gold-thickness transfer threshold. No empirical instrument performance is claimed."
+}

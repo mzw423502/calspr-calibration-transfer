@@ -1,0 +1,21 @@
+CalSPR V2.4 computational reproducibility materials
+Copyright (c) 2026 CalSPR contributors
+
+Original CalSPR code: MIT License (LICENSE).
+
+Third-party plotting helpers:
+  scripts/vendor/figure_style.py
+  scripts/vendor/figure_composer.py
+  scripts/calspr/figure_style_kernel.py
+Source: figure-style and figure-composer Codex skill distributions.
+Source package metadata declares Apache-2.0. These files retain Apache-2.0
+licensing, separately from the CalSPR MIT license. See LICENSES/Apache-2.0.txt
+and scripts/vendor/VENDOR_SOURCES.md. No original copyright statement was
+removed from the supplied helper code.
+
+Optical-constant tables:
+  data/raw/materials/Au_Johnson.yml
+  data/raw/materials/Olmon-ev.yml
+  data/raw/materials/Rakic-LD.yml
+Source: refractiveindex.info database; each file retains its public-domain /
+CC0 1.0 notice and original scientific references.

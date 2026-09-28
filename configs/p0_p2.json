@@ -1,0 +1,31 @@
+{
+  "run_class": "exploratory",
+  "seed": 20260913,
+  "wavelength_nm": 633.0,
+  "angle_min_deg": 60.0,
+  "angle_max_deg": 80.0,
+  "angle_bins": 401,
+  "gold_thickness_nm": [35.0, 40.0, 45.0, 50.0, 55.0, 60.0, 65.0],
+  "baseline_index": 1.3330,
+  "sample_delta_index": 0.0050,
+  "total_incident_photons": 10000000.0,
+  "background_fraction": 0.001,
+  "calibration_scenarios": {
+    "thickness_sigma_nm": 2.0,
+    "angle_zero_sigma_deg": 0.02,
+    "log_gain_sigma": 0.02,
+    "transfer_mismatch_sigma_nm": 2.0
+  },
+  "finite_difference_steps": {
+    "refractive_index": 0.00001,
+    "thickness_nm": 0.05,
+    "angle_zero_deg": 0.0005,
+    "log_gain": 0.0001
+  },
+  "material_sources": {
+    "gold_raw": "data/raw/materials/Au_Johnson.yml",
+    "gold_url": "https://raw.githubusercontent.com/polyanskiy/refractiveindex.info-database/master/database/data/main/Au/nk/Johnson.yml",
+    "prism": "SCHOTT N-BK7 Sellmeier coefficients"
+  }
+}
+

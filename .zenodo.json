@@ -1,0 +1,23 @@
+{
+  "title": "CalSPR V2.4: Information-source and risk boundaries for SPR calibration transfer",
+  "upload_type": "software",
+  "publication_date": "2026-09-28",
+  "version": "2.4.1",
+  "access_right": "open",
+  "license": "mit",
+  "creators": [
+    {"name": "Yang, Mengting"},
+    {"name": "Liu, Qingmin"},
+    {"name": "Hou, Shanglin"},
+    {"name": "Wu, Gang"},
+    {"name": "Yan, Zuyong"}
+  ],
+  "description": "Computational reproducibility materials for the CalSPR V2.4 study of information sources and calibration-transfer risk in surface plasmon resonance. Software version 2.4.1 includes planar optical and Poisson count models, nuisance-projected Fisher information, deterministic pseudo-true fitting, predeclared simulation configurations, complete inversion modules, material optical-constant source tables, frozen Monte Carlo outputs, deterministic tests, figure source data, and plotting/revision scripts. The source repository is https://github.com/mzw423502/calspr-calibration-transfer. The original CalSPR code is released under MIT; copied plotting helpers retain Apache-2.0, and the three refractiveindex.info material tables retain their original CC0 notices. The archive preserves the study's numerical results; full Monte Carlo was not rerun during release packaging. These are computational-model results, not measurements from a manufactured SPR instrument.",
+  "keywords": [
+    "surface plasmon resonance",
+    "calibration transfer",
+    "Fisher information",
+    "Poisson count model",
+    "reproducible research"
+  ]
+}

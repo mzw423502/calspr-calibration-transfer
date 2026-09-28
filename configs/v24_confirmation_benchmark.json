@@ -1,0 +1,76 @@
+{
+  "run_id": "v24_confirmation_benchmark_20260914_b1",
+  "run_class": "v24_confirmation_runtime_memory_benchmark",
+  "selection_source": "outputs/v24/v24_scan_20260914_e4_final/V24_THRESHOLD_PREDICTIONS.csv",
+  "selection_source_sha256": "425571029832126dc224116e9d2a27706d9982e872d331f76ccc94cd3707ece4",
+  "scan_summary_sha256": "0d379d1ea048a5ce75ecc0cf787e7602ed0a7e884f0c2f16c78d52c05f6f1405",
+  "selection_rule": "Nine precomputed anchors crossed with rho in {0, +/-0.5, +/-1, +/-2}; no noisy result entered prediction or condition selection.",
+  "seed": 2026091402,
+  "replicates_per_condition": 2,
+  "worker_processes": 1,
+  "wavelength_nm": 633.0,
+  "angle_min_deg": 60.0,
+  "angle_max_deg": 80.0,
+  "angle_bins": 201,
+  "baseline_index": 1.333,
+  "sample_delta_index": 0.005,
+  "background_fraction": 0.001,
+  "angular_response": {
+    "name": "top_hat_0p10deg_main",
+    "kind": "top_hat",
+    "width_deg": 0.1,
+    "quadrature_order": 16
+  },
+  "relative_magnitudes": [
+    0.0
+  ],
+  "anchors": [
+    {
+      "anchor_id": "d50_N1e+07",
+      "thickness_nm": 50.0,
+      "total_incident_photons": 10000000.0,
+      "K_delta_riu_per_nm": 0.00020936396292518862,
+      "v0_riu2": 2.7929383497821485e-10,
+      "v1_riu2": 3.214844472144695e-10,
+      "S_delta_per_nm2": 1038.9341763112313,
+      "delta_pred_nm": 0.031024585192555243
+    }
+  ],
+  "bounds": {
+    "q": [
+      1.325,
+      1.35
+    ],
+    "source_thickness_nm": [
+      35.0,
+      65.0
+    ],
+    "mismatch_nm": [
+      -6.0,
+      6.0
+    ],
+    "angle_zero_deg": [
+      -0.1,
+      0.1
+    ],
+    "log_gain": [
+      -0.1,
+      0.1
+    ]
+  },
+  "fit": {
+    "halton_starts": 4,
+    "initial_step_fraction": 0.2,
+    "step_shrink": 0.5,
+    "max_levels": 9,
+    "passes_per_level": 2,
+    "refine_max_iterations": 60,
+    "refine_unit_derivative_step": 1e-05,
+    "multi_solution_deviance_delta": 2.0,
+    "multi_solution_target_separation_riu": 0.0005,
+    "target_boundary_fraction": 0.001
+  },
+  "extension_rule": "Do not extend by default. Extend the entire 9-anchor group from 100 to 200 replicates only if any |rho|=0.5 or 2 paired interval crosses zero AND its MCSE exceeds 0.25 times the absolute local predicted D; never extend to resolve rho=1, where the local predicted difference is zero.",
+  "material": "data/raw/materials/Au_Johnson.yml",
+  "interpretation_limit": "Runtime and memory benchmark only; not inferential evidence."
+}

@@ -1,0 +1,10 @@
+{
+  "run_id": "p3_integrity_20260913_v1",
+  "seed": 20260913,
+  "source_config": "configs/p3_inversion_exploratory.json",
+  "coarse_records": "outputs/p3_inversion/p3e_20260913_v1/replicate_results.csv",
+  "refined_records": "outputs/p3_refine/p3r_20260913_v1/refined_replicates.csv",
+  "refined_summary": "outputs/p3_refine/p3r_20260913_v1/condition_summary.csv",
+  "material": "data/raw/materials/Au_Johnson.yml",
+  "numeric_tolerance": 1e-15
+}

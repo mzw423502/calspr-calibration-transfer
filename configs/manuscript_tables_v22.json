@@ -1,0 +1,10 @@
+{
+  "run_id": "tables_20260913_v22",
+  "seed": 2026091506,
+  "boundary_audit_report": "outputs/integrity_audit/boundary_confirmation_audit_20260913_v22/integrity_report.json",
+  "boundary_condition_summary": "outputs/integrity_audit/boundary_confirmation_audit_20260913_v22/condition_summary_verified.csv",
+  "boundary_symmetric_risk": "outputs/integrity_audit/boundary_confirmation_audit_20260913_v22/symmetric_magnitude_risk_differences.csv",
+  "target_scan_summary": "outputs/target_recalibration_scan/target_recalibration_scan_20260913_e1/summary.json",
+  "target_confirmation_summary": "outputs/target_recalibration_confirmation/target_recalibration_confirm_20260913_c1/summary.json",
+  "material_mismatch": "outputs/boundary_scan/boundary_20260913_e1/material_mismatch.csv"
+}

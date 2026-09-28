@@ -1,0 +1,23 @@
+{
+  "software_version": "2.4.1",
+  "scientific_version": "V2.4",
+  "archive_revision": "r3",
+  "start_utc": "2026-09-28T13:21:53Z",
+  "end_utc": "2026-09-28T13:21:55Z",
+  "changed_existing_files": [
+    "README.md",
+    "scripts/run_logged.sh",
+    "CITATION.cff"
+  ],
+  "wrapper_command": "bash scripts/run_logged.sh tests configs/p0_p2.json 0",
+  "wrapper_test_start_utc": "2026-09-28T13:21:53Z",
+  "wrapper_test_end_utc": "2026-09-28T13:21:55Z",
+  "logs_initially_absent": true,
+  "logs_created_by_wrapper": true,
+  "deterministic_test_pass_checks": 12,
+  "exit_status": 0,
+  "random_seed": "NA: deterministic test; 0 is PYTHONHASHSEED",
+  "numeric_and_material_bytes_unchanged": true,
+  "monte_carlo_rerun": false,
+  "historical_test_counter_preserved": 11
+}

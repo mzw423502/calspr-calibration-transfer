@@ -1,0 +1,8 @@
+{
+  "run_id": "v24_figures_20260914_v1",
+  "scan_dir": "outputs/v24/v24_scan_20260914_e4_final",
+  "confirmation_dir": "outputs/v24/v24_confirmation_20260914_c1_fast_validated",
+  "output_dir": "figures/v24",
+  "source_data_dir": "figures/v24/source_data",
+  "material": "data/raw/materials/Au_Johnson.yml"
+}

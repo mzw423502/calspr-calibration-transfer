@@ -1,0 +1,42 @@
+{
+  "run_id": "p3e_20260913_v1",
+  "run_class": "exploratory",
+  "seed": 20260913,
+  "wavelength_nm": 633.0,
+  "angle_min_deg": 60.0,
+  "angle_max_deg": 80.0,
+  "angle_bins": 201,
+  "gold_thickness_nm": 50.0,
+  "baseline_index": 1.3330,
+  "sample_delta_index": 0.0050,
+  "total_incident_photons": 10000000.0,
+  "background_fraction": 0.001,
+  "replicates_per_condition": 20,
+  "transfer_mismatch_nm": [0.0, 0.5, 1.0, 2.0, 4.0],
+  "fit": {
+    "halton_starts": 8,
+    "initial_step_fraction": 0.20,
+    "step_shrink": 0.5,
+    "max_levels": 11,
+    "passes_per_level": 2,
+    "normalized_step_tolerance": 0.00015,
+    "multi_solution_deviance_delta": 2.0,
+    "multi_solution_target_separation_riu": 0.0005,
+    "target_boundary_fraction": 0.001
+  },
+  "bounds": {
+    "absolute": [[1.325, 1.350], [35.0, 65.0], [-0.10, 0.10], [-0.10, 0.10]],
+    "same_device_differential": [[-0.005, 0.015], [35.0, 65.0], [-0.10, 0.10], [-0.10, 0.10]],
+    "transfer_naive": [[1.325, 1.350], [35.0, 65.0], [-0.10, 0.10], [-0.10, 0.10]],
+    "transfer_aware": [[1.325, 1.350], [35.0, 65.0], [-6.0, 6.0], [-0.10, 0.10], [-0.10, 0.10]]
+  },
+  "material_sources": {
+    "gold_raw": "data/raw/materials/Au_Johnson.yml"
+  },
+  "failure_definition": {
+    "optimizer_failure": "non-finite objective or final normalized search step exceeds tolerance",
+    "target_boundary": "target estimate lies within target_boundary_fraction of a fitted bound",
+    "multi_solution": "a distinct-start solution is within the predeclared Poisson deviance delta but its target differs by at least the predeclared RIU separation"
+  }
+}
+

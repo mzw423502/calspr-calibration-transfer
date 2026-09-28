@@ -1,0 +1,9 @@
+{
+  "run_id": "p3r_20260913_v1",
+  "source_run_id": "p3e_20260913_v1",
+  "source_config": "configs/p3_inversion_exploratory.json",
+  "seed": 20260913,
+  "max_iterations": 50,
+  "unit_derivative_step": 0.00002
+}
+

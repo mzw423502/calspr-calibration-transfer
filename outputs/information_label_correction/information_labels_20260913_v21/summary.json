@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETE",
+  "run_id": "information_labels_20260913_v21",
+  "source": "/home/11/CalSPR/outputs/p0_p2/information_scan.csv",
+  "source_sha256": "859ab07387c5928e31af7448ce66462199b661c3b0aa88ff4a455ca362742c7c",
+  "output": "/home/11/CalSPR/outputs/information_label_correction/information_labels_20260913_v21/information_scan_corrected.csv",
+  "output_sha256": "2e441d1711965bb53a6c96a802d23f46c486cbf9895bddb97d5f3b61f4a20a33",
+  "rows": 21,
+  "transformation": "Renamed stored separation_fraction values as derivative-norm ratios and added their squares as retained information fractions. No historical file or other numeric column was changed."
+}

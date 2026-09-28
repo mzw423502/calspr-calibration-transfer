@@ -1,0 +1,11 @@
+{
+  "start_utc": "2026-09-28T13:09:55Z",
+  "end_utc": "2026-09-28T13:09:56Z",
+  "exit_status": 0,
+  "seed": "NA",
+  "input": "prepared archive and supplied historical Figure5 layout script",
+  "output": "SHA256SUMS.txt and ZIP/TAR archive",
+  "compiled_python_files": 44,
+  "preserved_source_numeric_hashes": true,
+  "privacy_pattern_false_positive_resolved": true
+}

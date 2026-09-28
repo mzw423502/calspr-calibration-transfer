@@ -1,0 +1,37 @@
+{
+  "status": "EXPLORATORY_COMPLETE",
+  "run_id": "boundary_20260913_e1",
+  "seed": 20260914,
+  "elapsed_seconds": 288.0249388217926,
+  "config_sha256": "a9bde10feca4a93eb38ff848842447582e5fb3df82f3f2fc5a47d3c7bc5da467",
+  "material_sha256": {
+    "JC": "9f4bdab6bd49f7c6a1c48b5fb5482c7448caf4b6de39594a34ecd66dcf592774",
+    "Olmon_evaporated": "be778621e6491fc4e2db6eee400fb329d44ada2b987f7bfd2e219c83fe32a338",
+    "Rakic_LD": "a91fca57ee99efc77354908fa11b9c4822e8852394042069caaac7610c52e602"
+  },
+  "observation_model": {
+    "interrogation": "angular response at 633 nm over 60-80 degrees",
+    "angle_bins": 201,
+    "photon_budget": "total across all bins and all exposures; divided by exposure allocation then evenly across bins",
+    "background": "0.001 of incident photons in each bin, scaled with that exposure's photon allocation",
+    "likelihood": "independent Poisson counts in the abstract bin model"
+  },
+  "anchor": {
+    "sample_delta_index": 0.005,
+    "gold_thickness_nm": 50.0,
+    "total_incident_photons": 10000000.0,
+    "source_reference_fraction": 0.5,
+    "t2_allocation": [
+      0.2,
+      0.4,
+      0.4
+    ]
+  },
+  "anchor_K_delta_riu_per_nm": 0.00020930726758708386,
+  "anchor_K_target_angle_riu_per_deg": -0.006619913100047205,
+  "anchor_T0_vs_T1_boundary_abs_delta_nm": 0.03098553868161265,
+  "small_mismatch_linear_prediction_rmse_riu": 1.206633959263365e-07,
+  "small_mismatch_linear_prediction_max_abs_error_riu": 2.339159667684665e-07,
+  "terminology_correction": "derivative norm retained is a length ratio; information fraction retained is its square",
+  "interpretation_limit": "scenario-based local geometry and deterministic pseudo-true fitting; no Monte Carlo confirmation or empirical drift distribution"
+}

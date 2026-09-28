@@ -1,0 +1,10 @@
+{
+  "run_id": "v24_figure7_final_author_cleanup_20260917",
+  "scan_dir": "outputs/v24/v24_scan_20260914_e4_final",
+  "confirmation_dir": "outputs/v24/v24_confirmation_20260914_c3_combined_n200",
+  "output_dir": "figures/v24_final_author_cleanup_20260917",
+  "source_data_dir": "figures/v24_final_author_cleanup_20260917/source_data",
+  "material": "data/raw/materials/Au_Johnson.yml",
+  "renderer": "Pillow 300-dpi PNG with matched raster PDF",
+  "change_scope": "Reader-facing terminology only; existing verified CSV inputs; no simulation or statistical recomputation."
+}

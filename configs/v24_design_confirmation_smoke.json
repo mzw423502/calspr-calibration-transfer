@@ -1,0 +1,89 @@
+{
+  "run_id": "v24_design_confirmation_smoke_20260914_s1",
+  "run_class": "v24_design_confirmation_smoke",
+  "selection_source": "outputs/v24/v24_scan_20260914_e4_final/V24_EQUAL_BUDGET_COMPARISON.csv",
+  "selection_source_sha256": "cac99b4fb7cc45412d7149db2456ca3aaa8484979b1a0d68d78c238aee44e50a",
+  "selection_rule": "Four implementable strategies F, C, S, and P use their pre-noise selected 0.50 reference fraction under one total budget; CS is omitted from noisy confirmation because its selected endpoint is exactly S.",
+  "seed": 2026091403,
+  "replicates_per_condition": 1,
+  "worker_processes": 1,
+  "wavelength_nm": 633.0,
+  "angle_min_deg": 60.0,
+  "angle_max_deg": 80.0,
+  "angle_bins": 201,
+  "baseline_index": 1.333,
+  "background_fraction": 0.001,
+  "total_incident_photons": 10000000.0,
+  "nominal_thickness_nm": 50.0,
+  "sample_delta_index": 0.005,
+  "window_definition": {
+    "basis": "nominal BK7/reference critical angle and nominal 50-nm planned-sample point-response SPR minimum",
+    "nominal_thickness_nm": 50.0,
+    "critical_half_width_deg": 1.0,
+    "spr_half_width_deg": 2.0
+  },
+  "angular_response": {
+    "name": "top_hat_0p10deg_main",
+    "kind": "top_hat",
+    "width_deg": 0.1,
+    "quadrature_order": 16
+  },
+  "strategies": [
+    "F",
+    "C",
+    "S",
+    "P"
+  ],
+  "reference_fraction": {
+    "F": 0.5,
+    "C": 0.5,
+    "S": 0.5,
+    "P": 0.5
+  },
+  "states": [
+    {
+      "state_id": "d45_dq001",
+      "thickness_nm": 45.0,
+      "sample_delta_index": 0.001
+    }
+  ],
+  "finite_difference_steps": {
+    "refractive_index": 1e-06,
+    "thickness_nm": 0.001,
+    "angle_zero_deg": 1e-05,
+    "log_gain": 1e-05
+  },
+  "bounds": {
+    "q": [
+      1.325,
+      1.35
+    ],
+    "thickness_nm": [
+      35.0,
+      65.0
+    ],
+    "angle_zero_deg": [
+      -0.1,
+      0.1
+    ],
+    "log_gain": [
+      -0.1,
+      0.1
+    ]
+  },
+  "fit": {
+    "halton_starts": 1,
+    "initial_step_fraction": 0.2,
+    "step_shrink": 0.5,
+    "max_levels": 9,
+    "passes_per_level": 1,
+    "refine_max_iterations": 60,
+    "refine_unit_derivative_step": 1e-05,
+    "multi_solution_deviance_delta": 2.0,
+    "multi_solution_target_separation_riu": 0.0005,
+    "target_boundary_fraction": 0.001
+  },
+  "optimizer_validation_gate": "Launch only after the fast optimizer passes the paired nine-anchor validation against the four-start reference.",
+  "material": "data/raw/materials/Au_Johnson.yml",
+  "interpretation_limit": "Smoke and runtime check only; not inferential evidence."
+}

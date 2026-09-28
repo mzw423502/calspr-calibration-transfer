@@ -1,0 +1,11 @@
+design,angular_response,bin_count,used_photon_fraction,total_incident_photons_used,discarded_photons_reallocated,parameter_labels,rank,parameter_count,condition_number_whitened_jacobian,effective_information,local_sd_riu,identifiable
+F,top_hat_0p10deg_main,201,1.0,10000000.0,0,"[""q"", ""thickness_nm"", ""angle_zero_deg"", ""log_gain""]",4,4,2.6129643614581712,3580458552.1123385,1.67120864938587e-05,1
+no_C,top_hat_0p10deg_main,181,0.900497512437811,9004975.12437811,0,"[""q"", ""thickness_nm"", ""angle_zero_deg"", ""log_gain""]",4,4,2.6219907816408083,3570899599.92213,1.673443986243408e-05,1
+no_S,top_hat_0p10deg_main,160,0.7960199004975125,7960199.004975125,0,"[""q"", ""thickness_nm"", ""angle_zero_deg"", ""log_gain""]",4,4,3.042489351301892,680039020.3049695,3.834714922472708e-05,1
+C,top_hat_0p10deg_main,20,0.09950248756218906,995024.8756218906,0,"[""q"", ""thickness_nm"", ""angle_zero_deg"", ""log_gain""]",4,4,3.1701225181069996,4471781.437644175,0.000472889548439204,1
+S,top_hat_0p10deg_main,41,0.20398009950248755,2039800.9950248755,0,"[""q"", ""thickness_nm"", ""angle_zero_deg"", ""log_gain""]",4,4,3.282715647303962,2664652619.4262233,1.937223372422151e-05,1
+CS,top_hat_0p10deg_main,61,0.3034825870646766,3034825.8706467664,0,"[""q"", ""thickness_nm"", ""angle_zero_deg"", ""log_gain""]",4,4,2.7283127686147024,2712333976.14909,1.920120206198857e-05,1
+O,top_hat_0p10deg_main,140,0.6965174129353234,6965174.129353235,0,"[""q"", ""thickness_nm"", ""angle_zero_deg"", ""log_gain""]",4,4,3.1156324707787726,673254042.8860211,3.853989392436094e-05,1
+F_projected_score_contribution_C,top_hat_0p10deg_main,20,1.0,10000000.0,0,joint F projection; contribution only,4,4,2.6129643614581712,9029239.383548252,,1
+F_projected_score_contribution_S,top_hat_0p10deg_main,41,1.0,10000000.0,0,joint F projection; contribution only,4,4,2.6129643614581712,2760341038.542631,,1
+F_projected_score_contribution_O,top_hat_0p10deg_main,140,1.0,10000000.0,0,joint F projection; contribution only,4,4,2.6129643614581712,811088274.1861593,,1

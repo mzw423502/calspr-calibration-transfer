@@ -1,0 +1,22 @@
+{
+  "status": "V24_CONFIRMATION_COMPLETE",
+  "run_id": "v24_confirmation_20260914_c1_fast_validated",
+  "seed": 2026091402,
+  "replicates_per_condition": 100,
+  "worker_processes": 4,
+  "task_count": 6300,
+  "record_count": 12600,
+  "expected_record_count": 12600,
+  "record_count_pass": true,
+  "optimizer_failure_count": 0,
+  "target_boundary_count": 0,
+  "multi_solution_count": 0,
+  "extension_rule_triggered": true,
+  "extension_rule": "Do not extend by default. Extend the entire 9-anchor group from 100 to 200 replicates only if any |rho|=0.5 or 2 paired interval crosses zero AND its MCSE exceeds 0.25 times the absolute local predicted D; never extend to resolve rho=1, where the local predicted difference is zero.",
+  "elapsed_seconds": 25291.31276512146,
+  "peak_process_count": 4,
+  "config_sha256": "a94b451691795b3f8b821bcdaed2fa80c76cafe3aadba8b3a132611bb974ff5e",
+  "selection_source_sha256": "425571029832126dc224116e9d2a27706d9982e872d331f76ccc94cd3707ece4",
+  "replicates_sha256": "3ff79b74c03c6c3856afed78bd8075df4c78bebc19a0884e25e663595cb11417",
+  "interpretation_limit": "Paired internal Monte Carlo under a named finite-angular-response scenario; not empirical validation or a measured fabrication threshold."
+}

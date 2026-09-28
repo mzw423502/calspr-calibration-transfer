@@ -1,0 +1,50 @@
+{
+  "start_utc": "2026-09-28T13:04:59.729602+00:00",
+  "end_utc": "2026-09-28T13:05:01.683486+00:00",
+  "actual_command": "/home/11/research/CalSPR_figure_fix_20260928/scripts/fix_frozen_figures.py --input-dir /home/11/research/CalSPR_figure_fix_20260928/inputs --output-dir /home/11/research/CalSPR_figure_fix_20260928/outputs/render_v1",
+  "platform": "Linux-6.6.0-63-generic-x86_64-with-glibc2.38",
+  "python": "3.12.3 (main, Aug 27 2025, 06:55:13) [GCC 12.3.0]",
+  "pillow": "10.2.0",
+  "renderer": "Pillow; unchanged source raster panels retained at native resolution",
+  "style": {
+    "base": 27,
+    "legend": 24,
+    "tick": 22,
+    "letter": 36,
+    "dpi": 300
+  },
+  "random_seed": "NA: no stochastic computation",
+  "cpu_threads": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "input_hashes": {
+    "/home/11/research/CalSPR_figure_fix_20260928/inputs/Figure6_original.png": "37556973be37d5e7ba830af7c504eef5d8f07ad434fee98e1b59237bb3422eb9",
+    "/home/11/research/CalSPR_figure_fix_20260928/inputs/Figure7_original.png": "63369662cbff74b524a2dcf8f8a3dcbe1b67db640b3b96dbd820a70257b6a1b8",
+    "/home/11/research/CalSPR_figure_fix_20260928/inputs/V24_CONFIRMATION_SUMMARY.csv": "3374893e2bd4044d96bf32878347013904b8a7242933bd1c81cb8cc103028cef",
+    "/home/11/research/CalSPR_figure_fix_20260928/inputs/V24_DESIGN_NUMERICAL_CHECKS.csv": "65defbba2f4cf7b35499fc2bdc2f539e7fa8b8498ef0f4906ba5f42912e225cb",
+    "/home/11/research/CalSPR_figure_fix_20260928/inputs/V24_EQUAL_BUDGET_COMPARISON.csv": "cac99b4fb7cc45412d7149db2456ca3aaa8484979b1a0d68d78c238aee44e50a",
+    "/home/11/research/CalSPR_figure_fix_20260928/inputs/V24_THRESHOLD_PREDICTIONS.csv": "425571029832126dc224116e9d2a27706d9982e872d331f76ccc94cd3707ece4"
+  },
+  "input_hashes_unchanged": true,
+  "outputs": {
+    "/home/11/research/CalSPR_figure_fix_20260928/outputs/render_v1/Figure6_display_fixed.pdf": "37a8a917af52779f0871355199fbcbc131287c83f23c00f734875096afada118",
+    "/home/11/research/CalSPR_figure_fix_20260928/outputs/render_v1/Figure6_display_fixed.png": "9af60a518d1ae15f61e6ebae1b7086607922eb0eae24f52859a6ba9fd3556212",
+    "/home/11/research/CalSPR_figure_fix_20260928/outputs/render_v1/Figure7_display_fixed.pdf": "cee9f56d8a6428ef920dab3f2cd03a69f29024b0ef2381c8f3a3233c493dea43",
+    "/home/11/research/CalSPR_figure_fix_20260928/outputs/render_v1/Figure7_display_fixed.png": "2d16bb75ef78750371552b5787beaaeecf24721a1238ded98ca567f50bbb960a",
+    "/home/11/research/CalSPR_figure_fix_20260928/outputs/render_v1/panel_crops/Figure6_a.png": "07f929d3cd6dafffb453d43416ee7be0d2e9dd554bf7f55019b2f442d49cef39",
+    "/home/11/research/CalSPR_figure_fix_20260928/outputs/render_v1/panel_crops/Figure6_b.png": "95609917122be096301dc020264587f7e472d4d4ddb5d329b0fca71072b6e853",
+    "/home/11/research/CalSPR_figure_fix_20260928/outputs/render_v1/panel_crops/Figure6_c.png": "d7edd9635fe9982cd6c60077a1091655485511e3fe4731edf95f9560d7ba4276",
+    "/home/11/research/CalSPR_figure_fix_20260928/outputs/render_v1/panel_crops/Figure6_d.png": "9111217982b93a71f4a69056b1bfc9c29ff3097c99aee3f4e56c6b1f5b666a8e",
+    "/home/11/research/CalSPR_figure_fix_20260928/outputs/render_v1/panel_crops/Figure7_a.png": "75bedcb366ca1f3f03fd4922e2a2afa6bd65962a8e09760d3c850a7c25bd18c5",
+    "/home/11/research/CalSPR_figure_fix_20260928/outputs/render_v1/panel_crops/Figure7_b.png": "79edbf4be8f900a5d741157821781da9a48dd4a2fbf52ddf5007b5b61c9082d8",
+    "/home/11/research/CalSPR_figure_fix_20260928/outputs/render_v1/panel_crops/Figure7_c.png": "f2bd5933bbc57e330b9a9779ea268bdb37d231101a1a29c1086ac7005661f8b1",
+    "/home/11/research/CalSPR_figure_fix_20260928/outputs/render_v1/plot_data_audit.json": "43dea011456ba8da687e732a1d7bda34618e688382337bc54ba9a357a8f56a49",
+    "/home/11/research/CalSPR_figure_fix_20260928/outputs/render_v1/text_bbox_audit.json": "652cc451e2a07077f9906c9f88912641dd162e2f8fa36317d6d0779ffeedfc69"
+  },
+  "scientific_fit_recomputed": false,
+  "csv_values_modified": false,
+  "bbox_check_pass": true,
+  "exit_status": 0
+}

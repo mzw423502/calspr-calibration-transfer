@@ -1,0 +1,51 @@
+{
+  "run_id": "boundary_20260913_e1",
+  "run_class": "exploratory",
+  "seed": 20260914,
+  "wavelength_nm": 633.0,
+  "angle_min_deg": 60.0,
+  "angle_max_deg": 80.0,
+  "angle_bins": 201,
+  "baseline_index": 1.3330,
+  "sample_delta_indices": [0.0010, 0.0050],
+  "gold_thickness_nm": [45.0, 50.0, 55.0],
+  "total_incident_photons": [100000.0, 1000000.0, 10000000.0],
+  "background_fraction": 0.001,
+  "source_reference_fractions": [0.25, 0.50, 0.75],
+  "t2_allocations": [[0.20, 0.40, 0.40], [0.33, 0.33, 0.34], [0.50, 0.25, 0.25]],
+  "mismatch_nm": [-4.0, -2.0, -1.0, -0.5, -0.2, -0.1, -0.05, -0.02, 0.0, 0.02, 0.05, 0.1, 0.2, 0.5, 1.0, 2.0, 4.0],
+  "target_angle_offset_deg": [-0.01, -0.002, 0.0, 0.002, 0.01],
+  "finite_difference_steps": {
+    "refractive_index": 0.000002,
+    "thickness_nm": 0.01,
+    "angle_zero_deg": 0.0001,
+    "log_gain": 0.00002
+  },
+  "bounds": {
+    "q": [1.325, 1.350],
+    "source_thickness_nm": [35.0, 65.0],
+    "mismatch_nm": [-6.0, 6.0],
+    "angle_zero_deg": [-0.10, 0.10],
+    "target_angle_offset_deg": [-0.05, 0.05],
+    "log_gain": [-0.10, 0.10]
+  },
+  "fit": {
+    "halton_starts": 4,
+    "initial_step_fraction": 0.20,
+    "step_shrink": 0.5,
+    "max_levels": 9,
+    "passes_per_level": 2
+  },
+  "anchor": {
+    "sample_delta_index": 0.0050,
+    "gold_thickness_nm": 50.0,
+    "total_incident_photons": 10000000.0,
+    "source_reference_fraction": 0.50,
+    "t2_allocation": [0.20, 0.40, 0.40]
+  },
+  "materials": {
+    "JC": "data/raw/materials/Au_Johnson.yml",
+    "Olmon_evaporated": "data/raw/materials/Olmon-ev.yml",
+    "Rakic_LD": "data/raw/materials/Rakic-LD.yml"
+  }
+}

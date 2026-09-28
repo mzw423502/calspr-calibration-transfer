@@ -1,0 +1,11 @@
+{
+  "run_id": "target_recalibration_audit_20260913_v22",
+  "seed": 2026091505,
+  "input_replicates": "outputs/target_recalibration_confirmation/target_recalibration_confirm_20260913_c1/replicate_results.csv",
+  "input_summary": "outputs/target_recalibration_confirmation/target_recalibration_confirm_20260913_c1/summary.json",
+  "frozen_config": "configs/target_recalibration_confirmation_frozen_v1.json",
+  "generator_script": "scripts/run_target_recalibration_confirmation.py",
+  "expected_records": 2400,
+  "expected_frozen_config_sha256": "2f94429c5063f22856fa8df970079042bfb4563e6a3b21e12bb4ae8080ce7778",
+  "expected_generator_script_sha256": "fd5391a5b38885273e37f3e257c7d96f3374fe7a1de3cd19d6132aede9f281ba"
+}

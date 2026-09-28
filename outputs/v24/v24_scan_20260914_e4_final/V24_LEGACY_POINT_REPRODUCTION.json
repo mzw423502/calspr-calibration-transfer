@@ -1,0 +1,37 @@
+{
+  "computed": {
+    "anchor_id": "d50_N1e+07",
+    "thickness_nm": 50.0,
+    "total_incident_photons": 10000000.0,
+    "angular_response": "legacy_point",
+    "phase_fraction_of_spacing": 0.0,
+    "finite_difference_step_multiplier": 1.0,
+    "full_fisher_rank": 5,
+    "full_parameter_count": 5,
+    "A_condition_number": 2056848.9191169937,
+    "full_fisher_condition_number": 9041925.560315097,
+    "scaled_whitened_jacobian_condition_number": 3.7002942210698766,
+    "K_delta_riu_per_nm": 0.0002093073226647532,
+    "v0_riu2": 2.7865297278095114e-10,
+    "v1_riu2": 3.2071466282090985e-10,
+    "v1_minus_v0_riu2": 4.2061690039958705e-11,
+    "S_delta_per_nm2": 1041.5548038956083,
+    "K2_over_S_riu2": 4.2061690039958764e-11,
+    "variance_identity_relative_error": 1.3827579625279312e-15,
+    "delta_star_general_nm": 0.030985530555437388,
+    "delta_star_schur_nm": 0.03098553055543741,
+    "threshold_identity_relative_error": 6.718194376074263e-16,
+    "regular_interior_identifiable": 1
+  },
+  "recorded_v22_rounded_or_exact": {
+    "T0_effective_information": 3588700000.0,
+    "T1_effective_information": 3118000000.0,
+    "K_delta_riu_per_nm": 0.000209307,
+    "delta_star_nm": 0.03098553868161265
+  },
+  "relative_difference": {
+    "K_delta_riu_per_nm": 1.5415860587850515e-06,
+    "delta_star_nm": 2.6225702662852103e-07
+  },
+  "note": "V2.2 information values in the manuscript are rounded; delta_star is the recorded exact value."
+}

@@ -1,0 +1,12 @@
+PASS BK7_633_range (1.5150823520020043+0j)
+PASS Au_passive (0.18344262295081976+3.4332412177985945j)
+PASS single_interface_s 0.0
+PASS single_interface_p 0.0
+PASS normal_incidence_ps_reflectance 
+PASS lossless_flux_s 1.0000000000000002
+PASS lossless_flux_p 0.9999999999999998
+PASS independent_solver_reflectance 1.3877787807814457e-15
+PASS zero_thickness_degeneracy 4.577566798522237e-16
+PASS thick_metal_limit 
+PASS reflectance_physical min=0.01052791142526264 max=0.9107169430015726
+PASS spr_feature_present minimum=0.01052791142526264

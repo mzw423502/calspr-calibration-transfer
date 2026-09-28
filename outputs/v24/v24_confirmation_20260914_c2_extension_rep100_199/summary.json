@@ -1,0 +1,23 @@
+{
+  "status": "V24_CONFIRMATION_EXTENSION_COMPLETE",
+  "run_id": "v24_confirmation_20260914_c2_extension_rep100_199",
+  "seed": 2026091402,
+  "replicate_start": 100,
+  "replicate_stop_exclusive": 200,
+  "replicates_per_condition": 100,
+  "worker_processes": 4,
+  "task_count": 6300,
+  "record_count": 12600,
+  "expected_record_count": 12600,
+  "record_count_pass": true,
+  "optimizer_failure_count": 0,
+  "target_boundary_count": 0,
+  "multi_solution_count": 0,
+  "extension_rule_still_triggered_on_increment_only": true,
+  "elapsed_seconds": 6039.700032711029,
+  "config_sha256": "f25f562b6acaa575472a04bf6653b0b03030e54b90ed510afcc3fb3fb40ca339",
+  "selection_source_sha256": "425571029832126dc224116e9d2a27706d9982e872d331f76ccc94cd3707ece4",
+  "extension_trigger_source_sha256": "6d1c5dcd728176b03193e0dc8d7ba2eee068da2e3bba8c9aaf96596862f6d18c",
+  "replicates_sha256": "ed9a1e7e37d60dc4a2ef6697f1dd573d1f3f50f4ae9cf6c9ce84d8f8c9d5fa61",
+  "interpretation_limit": "Paired internal Monte Carlo under a named finite-angular-response scenario; not empirical validation or a measured fabrication threshold."
+}

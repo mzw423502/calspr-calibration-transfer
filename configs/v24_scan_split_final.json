@@ -1,0 +1,49 @@
+{
+  "run_id": "v24_scan_20260914_e4_final",
+  "run_class": "bounded_v24_information_and_threshold_scan",
+  "seed": 2026091401,
+  "wavelength_nm": 633.0,
+  "angle_min_deg": 60.0,
+  "angle_max_deg": 80.0,
+  "angle_bins": 201,
+  "baseline_index": 1.3330,
+  "sample_delta_index": 0.0050,
+  "background_fraction": 0.001,
+  "nominal_thickness_nm": 50.0,
+  "anchor_thickness_nm": [45.0, 50.0, 55.0],
+  "anchor_total_incident_photons": [100000.0, 1000000.0, 10000000.0],
+  "equal_budget_total_incident_photons": 10000000.0,
+  "reference_fractions": [0.20, 0.35, 0.50, 0.65, 0.80],
+  "cs_critical_weights": [0.0, 0.25, 0.50, 0.75, 1.0],
+  "window_definition": {
+    "basis": "nominal BK7/reference critical angle and nominal 50-nm planned-sample point-response SPR minimum",
+    "nominal_thickness_nm": 50.0,
+    "critical_half_width_deg": 1.0,
+    "spr_half_width_deg": 2.0
+  },
+  "angular_response_scenarios": [
+    {"name": "legacy_point", "kind": "point", "width_deg": 0.0, "quadrature_order": 16},
+    {"name": "top_hat_0p05deg", "kind": "top_hat", "width_deg": 0.05, "quadrature_order": 16},
+    {"name": "top_hat_0p10deg_main", "kind": "top_hat", "width_deg": 0.10, "quadrature_order": 16},
+    {"name": "top_hat_0p20deg", "kind": "top_hat", "width_deg": 0.20, "quadrature_order": 16}
+  ],
+  "main_angular_response": "top_hat_0p10deg_main",
+  "grid_phase_fractions": [-0.5, 0.0, 0.5],
+  "quadrature_orders_to_check": [8, 16, 32],
+  "finite_difference_steps": {
+    "refractive_index": 0.000001,
+    "thickness_nm": 0.001,
+    "angle_zero_deg": 0.00001,
+    "log_gain": 0.00001
+  },
+  "finite_difference_step_multipliers": [0.5, 1.0, 2.0],
+  "threshold_relative_magnitudes": [0.0, -0.5, 0.5, -1.0, 1.0, -2.0, 2.0],
+  "legacy_anchor_expected": {
+    "T0_effective_information": 3588700000.0,
+    "T1_effective_information": 3118000000.0,
+    "K_delta_riu_per_nm": 0.000209307,
+    "delta_star_nm": 0.03098553868161265
+  },
+  "material": "data/raw/materials/Au_Johnson.yml",
+  "interpretation_limit": "Point response is the exact historical abstraction. Top-hat responses are named numerical scenarios, not empirical instrument-response estimates. Intervals containing the ideal critical angle are split at that branch point before quadrature. All information and thresholds are local and model conditional."
+}

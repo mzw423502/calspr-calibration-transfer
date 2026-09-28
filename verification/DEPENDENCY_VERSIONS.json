@@ -1,0 +1,8 @@
+{
+  "python": "3.12.3",
+  "platform": "Linux-6.6.0-63-generic-x86_64-with-glibc2.38",
+  "numpy": "1.24.2",
+  "matplotlib": "not on default Python path",
+  "Pillow": "10.2.0",
+  "scipy": "not on default Python path"
+}

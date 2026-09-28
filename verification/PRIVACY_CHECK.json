@@ -1,0 +1,9 @@
+{
+  "credential_or_contact_hits": [],
+  "historical_project_path_mentions": [
+    "verification/PORTABILITY_CHANGES.json",
+    "outputs/information_label_correction/information_labels_20260913_v21/summary.json",
+    "figures/revision_20260928/verified_render/manifest.json"
+  ],
+  "note": "No author email lists, credentials, manuscript, original logs or dependency caches included. Historical source-root mentions in numerical metadata were retained for provenance."
+}

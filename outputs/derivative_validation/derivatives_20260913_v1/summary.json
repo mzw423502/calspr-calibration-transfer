@@ -1,0 +1,17 @@
+{
+  "status": "NUMERICAL_VERIFICATION_COMPLETE",
+  "run_id": "derivatives_20260913_v1",
+  "seed": 20260913,
+  "elapsed_seconds": 21.311015129089355,
+  "config_sha256": "299384db8d711f9600de77e127fc33960f1214cd733111bdf6757489ec2dc632",
+  "material_sha256": {
+    "JC": "9f4bdab6bd49f7c6a1c48b5fb5482c7448caf4b6de39594a34ecd66dcf592774",
+    "Olmon_evaporated": "be778621e6491fc4e2db6eee400fb329d44ada2b987f7bfd2e219c83fe32a338",
+    "Rakic_LD": "a91fca57ee99efc77354908fa11b9c4822e8852394042069caaac7610c52e602"
+  },
+  "n_checks": 54,
+  "all_finite": true,
+  "max_recursive_half_vs_quarter_relative_norm": 1.3273082832806044e-05,
+  "max_solver_derivative_relative_norm_at_quarter": 1.7830504838111368e-10,
+  "scope": "Centered-derivative step convergence and agreement of two matrix-optics implementations at 633 nm across named thickness, index, and material states."
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "path": "scripts/release/run_v24_confirmation_extension.py",
+    "kind": "path portability only",
+    "old": "Path(\"${ORIGINAL_PROJECT_ROOT}\")",
+    "new": "Path(__file__).resolve().parents[2]",
+    "occurrences": 1
+  },
+  {
+    "path": "scripts/release/merge_v24_confirmation_n200.py",
+    "kind": "path portability only",
+    "old": "Path(\"${ORIGINAL_PROJECT_ROOT}\")",
+    "new": "Path(__file__).resolve().parents[2]",
+    "occurrences": 1
+  },
+  {
+    "path": "scripts/release/merge_v24_confirmation_n200.py",
+    "kind": "path portability only",
+    "old": "Path(\"/home/11/research/v24_confirmation_extension_v1.json\")",
+    "new": "ROOT / \"configs/v24_confirmation_extension_v1.json\"",
+    "occurrences": 1
+  },
+  {
+    "path": "scripts/release/make_v24_figures_pillow.py",
+    "kind": "path portability only",
+    "old": "Path(\"${ORIGINAL_PROJECT_ROOT}\")",
+    "new": "Path(__file__).resolve().parents[2]",
+    "occurrences": 1
+  },
+  {
+    "path": "scripts/release/make_v24_figure7_final_author_cleanup.py",
+    "kind": "path portability only",
+    "old": "Path(\"${ORIGINAL_PROJECT_ROOT}\")",
+    "new": "Path(__file__).resolve().parents[2]",
+    "occurrences": 1
+  },
+  {
+    "path": "scripts/release/make_measurement_figures_1_to_5.py",
+    "kind": "Measurement layout source added",
+    "source": "Measurement package scripts/release/make_v22_main_figures_final_author_cleanup.py",
+    "source_sha256": "ac529a47dcd9ef9e6e10c2d05a004072cb90a4106c4b5ce0c9c08ecab002127d",
+    "scope": "pre-existing 2026-09-21 Figure5 layout repair; no scientific computation"
+  },
+  {
+    "path": "scripts/release/make_measurement_figures_1_to_5.py",
+    "kind": "import root portability",
+    "old": "SCRIPT_ROOT parents[1]",
+    "new": "SCRIPT_ROOT parents[2]"
+  },
+  {
+    "path": "scripts/release/make_v22_main_figures_final_author_cleanup.py",
+    "kind": "import root portability",
+    "old": "SCRIPT_ROOT parents[1]",
+    "new": "SCRIPT_ROOT parents[2]"
+  }
+]

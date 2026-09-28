@@ -1,0 +1,21 @@
+{
+  "version": "2.4.1",
+  "scientific_version": "V2.4",
+  "archive_revision": "r4",
+  "repository_url": "https://github.com/mzw423502/calspr-calibration-transfer",
+  "repository_status_at_preparation": "created, release content not pushed by this packaging task",
+  "archive_doi": null,
+  "zenodo_record_created": false,
+  "metadata_authors_match_cff": true,
+  "license": "MIT for original code; third-party Apache-2.0 and CC0 retained",
+  "unchanged_existing_payload_files": 233,
+  "changed_existing_files": [
+    "README.md",
+    "CITATION.cff"
+  ],
+  "added_metadata_file": ".zenodo.json",
+  "numerical_recomputation": false,
+  "start_utc": "2026-09-28T13:32:01Z",
+  "end_utc": "2026-09-28T13:32:02Z",
+  "exit_status": 0
+}

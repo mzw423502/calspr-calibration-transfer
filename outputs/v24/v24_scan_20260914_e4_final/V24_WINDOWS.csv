@@ -1,0 +1,8 @@
+window,bin_count,angle_min_deg,angle_max_deg,definition_basis,critical_angle_deg,spr_minimum_deg
+C,20,60.7,62.6,nominal BK7/reference critical angle and nominal 50-nm planned-sample point-response SPR minimum,61.62067725058927,73.0
+S,41,71.0,75.0,nominal BK7/reference critical angle and nominal 50-nm planned-sample point-response SPR minimum,61.62067725058927,73.0
+O,140,60.0,80.0,nominal BK7/reference critical angle and nominal 50-nm planned-sample point-response SPR minimum,61.62067725058927,73.0
+CS,61,60.7,75.0,nominal BK7/reference critical angle and nominal 50-nm planned-sample point-response SPR minimum,61.62067725058927,73.0
+F,201,60.0,80.0,nominal BK7/reference critical angle and nominal 50-nm planned-sample point-response SPR minimum,61.62067725058927,73.0
+no_C,181,60.0,80.0,nominal BK7/reference critical angle and nominal 50-nm planned-sample point-response SPR minimum,61.62067725058927,73.0
+no_S,160,60.0,80.0,nominal BK7/reference critical angle and nominal 50-nm planned-sample point-response SPR minimum,61.62067725058927,73.0
